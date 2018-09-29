@@ -1,0 +1,722 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <Filter Include="Source">
+      <UniqueIdentifier>{59b34a34-edf0-401f-bdca-3863ce0dfb25}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Materials">
+      <UniqueIdentifier>{96fda779-ca6c-4ba1-a948-ae1d588f4ba6}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Materials\TPMaterial">
+      <UniqueIdentifier>{75171333-2d23-414a-a64d-27caffe83095}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Effects">
+      <UniqueIdentifier>{1f1175e9-bcc2-44d2-954f-ef9aa4cc0cbc}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Effects\Blur">
+      <UniqueIdentifier>{4656cfcf-5440-4514-a2ae-b86edc11c376}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Materials\TPMaterial\shaders">
+      <UniqueIdentifier>{7ae2d1d3-1cb1-4459-9bc8-1fd050dd7249}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Materials\BaseMaterial">
+      <UniqueIdentifier>{1c30563f-729f-42db-b878-4b51bf89395d}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Materials\BoundingBoxMaterial">
+      <UniqueIdentifier>{1ee5f0ba-6f9a-40c0-9138-2ebaa05beb97}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Materials\BoundingBoxMaterial\Shaders">
+      <UniqueIdentifier>{10ab5cb4-148b-4245-a5e0-63ac8d395603}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Materials\BRDFMaterial">
+      <UniqueIdentifier>{0865aae0-56f7-4d03-8e60-d134a28ccb70}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Materials\BRDFMaterial\Shaders">
+      <UniqueIdentifier>{032756bb-bf7f-4d49-af01-9c60c0b9d217}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Materials\ColorMaterial">
+      <UniqueIdentifier>{e5a8a168-45af-4cbd-8a79-aa8bb5b374d0}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Materials\ColorMaterial\Shaders">
+      <UniqueIdentifier>{1aeec0cb-18cc-42af-b14f-d29be3a789ec}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Materials\Common">
+      <UniqueIdentifier>{5c1e50f4-b85e-402c-8470-5c81d55f0215}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Materials\Common\Lighting">
+      <UniqueIdentifier>{27cf681e-9768-4a60-b076-6477da3f0687}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Materials\Common\BRDF">
+      <UniqueIdentifier>{1f0a7f05-c335-40ed-8f06-b173adb4f559}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Materials\Common\BRDF\diffuse">
+      <UniqueIdentifier>{65e66219-299d-493c-a0b8-012d9a323bc8}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Materials\Common\BRDF\other">
+      <UniqueIdentifier>{d8ef1882-bdaf-4938-99b4-d87555c8dc4a}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Materials\Common\BRDF\reflectance">
+      <UniqueIdentifier>{4ca037ca-b763-4c95-93aa-10c79cfa3b2f}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Materials\Common\BRDF\templates">
+      <UniqueIdentifier>{5a6868a3-eeeb-4140-bbe3-d56deedf06e0}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Materials\DeferredMaterial">
+      <UniqueIdentifier>{7a76ff73-4bbf-4cdf-be92-02f13738f059}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Materials\DeferredMaterial\Shaders">
+      <UniqueIdentifier>{ae71fd8b-72b6-4489-96f0-99c4ba37a306}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Materials\GBuffersMaterial">
+      <UniqueIdentifier>{c45fc40c-4a92-41b7-8d65-0f1c9c47e19b}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Materials\GBuffersMaterial\Shaders">
+      <UniqueIdentifier>{83234651-fc11-4bd4-ade1-c18588d88c32}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Materials\LightMaterial">
+      <UniqueIdentifier>{becef0ac-91bc-45dd-9e8e-6e38449cccbb}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Materials\LightMaterial\Shaders">
+      <UniqueIdentifier>{c4b9f193-f920-4923-b426-a82c48a0ab64}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Materials\TextureMaterial">
+      <UniqueIdentifier>{6b01e6b4-dcf6-4db1-a8e9-1a23cd9e8713}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Materials\TextureMaterial\Shaders">
+      <UniqueIdentifier>{beb8bf20-4fff-49ae-b1d8-96d940beaa84}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Materials\MoonMaterial">
+      <UniqueIdentifier>{55abdc24-aa16-46eb-95ad-f6f5725d61ca}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Materials\MoonMaterial\Shaders">
+      <UniqueIdentifier>{5822d551-e43f-4376-a932-0551bb5a3ea0}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Materials\SpaceMaterial">
+      <UniqueIdentifier>{09e25ff1-4bce-4047-9126-a4fe8ccc4d96}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Materials\SpaceMaterial\Shaders">
+      <UniqueIdentifier>{b5d03783-e8d4-4a04-8982-67977138656a}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Materials\SunMaterial">
+      <UniqueIdentifier>{5aedf65e-0921-491a-9b53-6a38fe28ac71}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Materials\SunMaterial\Shaders">
+      <UniqueIdentifier>{e42bfad1-e3cc-4755-a755-83c28e7a8ede}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Materials\EnvMaterial">
+      <UniqueIdentifier>{cc24a72f-6f07-4d30-b8ce-7654d59a6ec5}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Materials\EnvMaterial\Shaders">
+      <UniqueIdentifier>{af159c94-02ba-482f-93fd-9a502330af5a}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Materials\MoonMaterial\SmokeMaterial">
+      <UniqueIdentifier>{9c58dad4-51e1-4ced-8e78-fc5d64015c6e}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Materials\MoonMaterial\SmokeMaterial\Shaders">
+      <UniqueIdentifier>{61348670-c16f-48c1-85d7-e86dfc4aa580}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Materials\GrassGroundMaterial">
+      <UniqueIdentifier>{be099c50-002d-4338-8877-89c7e42b3919}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Materials\GrassGroundMaterial\Shaders">
+      <UniqueIdentifier>{b9d361bb-1dba-43b9-bf6b-a111e139465a}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Materials\DirtGroundMaterial">
+      <UniqueIdentifier>{59dc12fe-8728-43b1-9f35-6051dc833b96}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Materials\DirtGroundMaterial\Shaders">
+      <UniqueIdentifier>{73f50c21-7812-4c0f-b28e-73aeea5e7984}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Materials\TreeMaterial">
+      <UniqueIdentifier>{101082b7-3fbf-4284-b8e2-389f75c10efe}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Materials\TreeMaterial\Shaders">
+      <UniqueIdentifier>{c9d1913a-65ec-4f5f-9c22-0036fb4df996}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Materials\TrunkMaterial">
+      <UniqueIdentifier>{a811e156-9f9d-41e5-870d-e6fe45675b11}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Materials\TrunkMaterial\Shaders">
+      <UniqueIdentifier>{56048f1e-b64f-4fd0-a75c-70f05f362786}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Materials\RockMaterial">
+      <UniqueIdentifier>{48f992b4-9508-46b8-9624-8cd521f099ff}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Materials\RockMaterial\Shaders">
+      <UniqueIdentifier>{a85fe74e-6ad9-4ef9-8a5c-90b637ffe9e7}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Materials\ThunderBoltMaterial">
+      <UniqueIdentifier>{d17e2591-7545-4f96-9171-d554169aa6e1}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Materials\ThunderBoltMaterial\Shaders">
+      <UniqueIdentifier>{e8337dab-5271-4626-8785-859bb0e5f924}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Materials\SpaceShipMaterial">
+      <UniqueIdentifier>{ec212431-3000-4393-8fd3-618490a2111b}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Materials\SpaceShipMaterial\Shaders">
+      <UniqueIdentifier>{9939a01e-d250-4a10-a287-dae913fb84b8}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Materials\GlassMaterial">
+      <UniqueIdentifier>{4b6a97ab-a578-473e-9264-9f3c54dc0bcd}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Materials\GlassMaterial\Shaders">
+      <UniqueIdentifier>{38c67ccb-5f09-4bff-8140-2dcd174a07bc}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Materials\ReactorFireMaterial">
+      <UniqueIdentifier>{6057d932-3602-4ba9-8859-56b40c7d276a}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Materials\ReactorFireMaterial\Shaders">
+      <UniqueIdentifier>{d6693738-06df-45af-b0bb-e1980b3e82c8}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Materials\ReactorMaterial">
+      <UniqueIdentifier>{f105c139-3d00-420a-adf7-68a71c06bbee}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Materials\ReactorMaterial\Shaders">
+      <UniqueIdentifier>{775999bf-0de5-4413-b5f4-cc35edd96732}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Materials\BaseFireMaterial">
+      <UniqueIdentifier>{0cc50272-6788-49be-bc20-81888d2201fa}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Materials\BaseFireMaterial\Shaders">
+      <UniqueIdentifier>{57ee38e0-2d6f-45ad-94ef-335835539dec}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Materials\CampFireMaterial">
+      <UniqueIdentifier>{c48d91a5-1621-4ca3-b7c3-55976cf89650}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Materials\CampFireMaterial\Shaders">
+      <UniqueIdentifier>{b11d20d3-97c4-44ac-b118-c2f43d0179e3}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Materials\TreeShadowMaterial">
+      <UniqueIdentifier>{137ee9ee-8a70-4824-ab95-c3e60945df93}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Materials\TreeShadowMaterial\Shaders">
+      <UniqueIdentifier>{72f7b989-2a50-4ae5-9d31-bbd70e34a01a}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Materials\SmokeFireMaterial">
+      <UniqueIdentifier>{fdb28986-9c4f-4bc5-91fb-be0768b2965d}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Materials\SmokeFireMaterial\Shaders">
+      <UniqueIdentifier>{763c52f9-a56d-4503-9299-b4c161351f0e}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Materials\SunLightMaterial">
+      <UniqueIdentifier>{ab8b23f5-24c1-4e35-bebd-e546215f93b6}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Materials\SunLightMaterial\Shaders">
+      <UniqueIdentifier>{c268e4f6-6736-48a6-907a-703cf7907df0}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Materials\FireLightMaterial">
+      <UniqueIdentifier>{a5871dd9-b36b-4032-a538-fc524fbe33ac}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Materials\FireLightMaterial\Shaders">
+      <UniqueIdentifier>{c29625c6-8240-4c81-93e8-95526c4db08b}</UniqueIdentifier>
+    </Filter>
+  </ItemGroup>
+  <ItemGroup>
+    <ClCompile Include="..\MyProject\Sources\SampleEngine.cpp">
+      <Filter>Source</Filter>
+    </ClCompile>
+    <ClCompile Include="..\MyProject\Sources\Main.cpp">
+      <Filter>Source</Filter>
+    </ClCompile>
+    <ClCompile Include="Sources\GoblimApplication.cpp">
+      <Filter>Source</Filter>
+    </ClCompile>
+    <ClCompile Include="Sources\SampleEngine_Deferred.cpp">
+      <Filter>Source</Filter>
+    </ClCompile>
+    <ClCompile Include="Materials\TPMaterial\TPMaterial.cpp">
+      <Filter>Materials\TPMaterial</Filter>
+    </ClCompile>
+    <ClCompile Include="Effects\Blur\Blur.cpp">
+      <Filter>Effects\Blur</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Core\Materials\BoundingBoxMaterial\BoundingBoxMaterial.cpp">
+      <Filter>Materials\BoundingBoxMaterial</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Core\Materials\BRDFMaterial\BRDFMaterial.cpp">
+      <Filter>Materials\BRDFMaterial</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Core\Materials\ColorMaterial\ColorMaterial.cpp">
+      <Filter>Materials\ColorMaterial</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Core\Materials\DeferredMaterial\DeferredMaterial.cpp">
+      <Filter>Materials\DeferredMaterial</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Core\Materials\GBuffersMaterial\GBuffersMaterial.cpp">
+      <Filter>Materials\GBuffersMaterial</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Core\Materials\LightMaterial\LightMaterial.cpp">
+      <Filter>Materials\LightMaterial</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Core\Materials\TextureMaterial\TextureMaterial.cpp">
+      <Filter>Materials\TextureMaterial</Filter>
+    </ClCompile>
+    <ClCompile Include="Materials\MoonMaterial\MoonMaterial.cpp">
+      <Filter>Materials\MoonMaterial</Filter>
+    </ClCompile>
+    <ClCompile Include="Materials\SpaceMaterial\SpaceMaterial.cpp">
+      <Filter>Materials\SpaceMaterial</Filter>
+    </ClCompile>
+    <ClCompile Include="Materials\SunMaterial\SunMaterial.cpp">
+      <Filter>Materials\SunMaterial</Filter>
+    </ClCompile>
+    <ClCompile Include="Materials\EnvMaterial\EnvMaterial.cpp">
+      <Filter>Materials\EnvMaterial</Filter>
+    </ClCompile>
+    <ClCompile Include="Materials\SmokeMaterial\SmokeMaterial.cpp">
+      <Filter>Materials\MoonMaterial\SmokeMaterial</Filter>
+    </ClCompile>
+    <ClCompile Include="Materials\GrassGroundMaterial\GrassGroundMaterial.cpp">
+      <Filter>Materials\GrassGroundMaterial</Filter>
+    </ClCompile>
+    <ClCompile Include="Materials\DirtGroundMaterial\DirtGroundMaterial.cpp">
+      <Filter>Materials\DirtGroundMaterial</Filter>
+    </ClCompile>
+    <ClCompile Include="Materials\TreeMaterial\TreeMaterial.cpp">
+      <Filter>Materials\TreeMaterial</Filter>
+    </ClCompile>
+    <ClCompile Include="Materials\TrunkMaterial\TrunkMaterial.cpp">
+      <Filter>Materials\TrunkMaterial</Filter>
+    </ClCompile>
+    <ClCompile Include="Materials\RockMaterial\RockMaterial.cpp">
+      <Filter>Materials\RockMaterial</Filter>
+    </ClCompile>
+    <ClCompile Include="Materials\ThunderBoltMaterial\ThunderBoltMaterial.cpp">
+      <Filter>Materials\ThunderBoltMaterial</Filter>
+    </ClCompile>
+    <ClCompile Include="Materials\SpaceShipMaterial\SpaceShipMaterial.cpp">
+      <Filter>Materials\SpaceShipMaterial</Filter>
+    </ClCompile>
+    <ClCompile Include="Materials\GlassMaterial\GlassMaterial.cpp">
+      <Filter>Materials\GlassMaterial</Filter>
+    </ClCompile>
+    <ClCompile Include="Materials\ReactorFireMaterial\ReactorFireMaterial.cpp">
+      <Filter>Materials\ReactorFireMaterial</Filter>
+    </ClCompile>
+    <ClCompile Include="Materials\ReactorMaterial\ReactorMaterial.cpp">
+      <Filter>Materials\ReactorMaterial</Filter>
+    </ClCompile>
+    <ClCompile Include="Materials\BaseFireMaterial\BaseFireMaterial.cpp">
+      <Filter>Materials\BaseFireMaterial</Filter>
+    </ClCompile>
+    <ClCompile Include="Materials\CampFireMaterial\CampFireMaterial.cpp">
+      <Filter>Materials\CampFireMaterial</Filter>
+    </ClCompile>
+    <ClCompile Include="Materials\TreeShadowMaterial\TreeShadowMaterial.cpp">
+      <Filter>Materials\TreeShadowMaterial</Filter>
+    </ClCompile>
+    <ClCompile Include="Materials\SmokeFireMaterial\SmokeFireMaterial.cpp">
+      <Filter>Materials\SmokeFireMaterial</Filter>
+    </ClCompile>
+    <ClCompile Include="Materials\SunLightMaterial\SunLightMaterial.cpp">
+      <Filter>Materials\SunLightMaterial</Filter>
+    </ClCompile>
+    <ClCompile Include="Materials\FireLightMaterial\FireLightMaterial.cpp">
+      <Filter>Materials\FireLightMaterial</Filter>
+    </ClCompile>
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="..\MyProject\Sources\SampleEngine.h">
+      <Filter>Source</Filter>
+    </ClInclude>
+    <ClInclude Include="Sources\GoblimApplication.h">
+      <Filter>Source</Filter>
+    </ClInclude>
+    <ClInclude Include="Sources\SampleEngine_Deferred.h">
+      <Filter>Source</Filter>
+    </ClInclude>
+    <ClInclude Include="Materials\TPMaterial\TPMaterial.h">
+      <Filter>Materials\TPMaterial</Filter>
+    </ClInclude>
+    <ClInclude Include="Effects\Blur\Blur.h">
+      <Filter>Effects\Blur</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Core\Materials\BoundingBoxMaterial\BoundingBoxMaterial.h">
+      <Filter>Materials\BoundingBoxMaterial</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Core\Materials\BRDFMaterial\BRDFMaterial.hpp">
+      <Filter>Materials\BRDFMaterial</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Core\Materials\ColorMaterial\ColorMaterial.h">
+      <Filter>Materials\ColorMaterial</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Core\Materials\DeferredMaterial\DeferredMaterial.h">
+      <Filter>Materials\DeferredMaterial</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Core\Materials\GBuffersMaterial\GBuffersMaterial.h">
+      <Filter>Materials\GBuffersMaterial</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Core\Materials\LightMaterial\LightMaterial.h">
+      <Filter>Materials\LightMaterial</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Core\Materials\TextureMaterial\TextureMaterial.h">
+      <Filter>Materials\TextureMaterial</Filter>
+    </ClInclude>
+    <ClInclude Include="resource.h" />
+    <ClInclude Include="Materials\MoonMaterial\MoonMaterial.h">
+      <Filter>Materials\MoonMaterial</Filter>
+    </ClInclude>
+    <ClInclude Include="Materials\SpaceMaterial\SpaceMaterial.h">
+      <Filter>Materials\SpaceMaterial</Filter>
+    </ClInclude>
+    <ClInclude Include="Materials\SunMaterial\SunMaterial.h">
+      <Filter>Materials\SunMaterial</Filter>
+    </ClInclude>
+    <ClInclude Include="resource1.h" />
+    <ClInclude Include="Materials\EnvMaterial\EnvMaterial.h">
+      <Filter>Materials\EnvMaterial</Filter>
+    </ClInclude>
+    <ClInclude Include="Materials\SmokeMaterial\SmokeMaterial.h">
+      <Filter>Materials\MoonMaterial\SmokeMaterial</Filter>
+    </ClInclude>
+    <ClInclude Include="Materials\GrassGroundMaterial\GrassGroundMaterial.h">
+      <Filter>Materials\GrassGroundMaterial</Filter>
+    </ClInclude>
+    <ClInclude Include="Materials\DirtGroundMaterial\DirtGroundMaterial.h">
+      <Filter>Materials\DirtGroundMaterial</Filter>
+    </ClInclude>
+    <ClInclude Include="Materials\TreeMaterial\TreeMaterial.h">
+      <Filter>Materials\TreeMaterial</Filter>
+    </ClInclude>
+    <ClInclude Include="Materials\TrunkMaterial\TrunkMaterial.h">
+      <Filter>Materials\TrunkMaterial</Filter>
+    </ClInclude>
+    <ClInclude Include="Materials\RockMaterial\RockMaterial.h">
+      <Filter>Materials\RockMaterial</Filter>
+    </ClInclude>
+    <ClInclude Include="Materials\ThunderBoltMaterial\ThunderBoltMaterial.h">
+      <Filter>Materials\ThunderBoltMaterial</Filter>
+    </ClInclude>
+    <ClInclude Include="Materials\SpaceShipMaterial\SpaceShipMaterial.h">
+      <Filter>Materials\SpaceShipMaterial</Filter>
+    </ClInclude>
+    <ClInclude Include="Materials\GlassMaterial\GlassMaterial.h">
+      <Filter>Materials\GlassMaterial</Filter>
+    </ClInclude>
+    <ClInclude Include="Materials\ReactorFireMaterial\ReactorFireMaterial.h">
+      <Filter>Materials\ReactorFireMaterial</Filter>
+    </ClInclude>
+    <ClInclude Include="Materials\ReactorMaterial\ReactorMaterial.h">
+      <Filter>Materials\ReactorMaterial</Filter>
+    </ClInclude>
+    <ClInclude Include="Materials\BaseFireMaterial\BaseFireMaterial.h">
+      <Filter>Materials\BaseFireMaterial</Filter>
+    </ClInclude>
+    <ClInclude Include="Materials\CampFireMaterial\CampFireMaterial.h">
+      <Filter>Materials\CampFireMaterial</Filter>
+    </ClInclude>
+    <ClInclude Include="Materials\TreeShadowMaterial\TreeShadowMaterial.h">
+      <Filter>Materials\TreeShadowMaterial</Filter>
+    </ClInclude>
+    <ClInclude Include="Materials\SmokeFireMaterial\SmokeFireMaterial.h">
+      <Filter>Materials\SmokeFireMaterial</Filter>
+    </ClInclude>
+    <ClInclude Include="Materials\SunLightMaterial\SunLightMaterial.h">
+      <Filter>Materials\SunLightMaterial</Filter>
+    </ClInclude>
+    <ClInclude Include="Materials\FireLightMaterial\FireLightMaterial.h">
+      <Filter>Materials\FireLightMaterial</Filter>
+    </ClInclude>
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Materials\TPMaterial\Shaders\Main-VS.glsl">
+      <Filter>Materials\TPMaterial\shaders</Filter>
+    </None>
+    <None Include="Materials\TPMaterial\Shaders\Main-FS.glsl">
+      <Filter>Materials\TPMaterial\shaders</Filter>
+    </None>
+    <None Include="..\Core\Materials\BaseMaterial\Main-VS.glsl">
+      <Filter>Materials\BaseMaterial</Filter>
+    </None>
+    <None Include="..\Core\Materials\BaseMaterial\Main-FS.glsl">
+      <Filter>Materials\BaseMaterial</Filter>
+    </None>
+    <None Include="..\Core\Materials\BoundingBoxMaterial\Shaders\Main-VS.glsl">
+      <Filter>Materials\BoundingBoxMaterial\Shaders</Filter>
+    </None>
+    <None Include="..\Core\Materials\BoundingBoxMaterial\Shaders\Main-FS.glsl">
+      <Filter>Materials\BoundingBoxMaterial\Shaders</Filter>
+    </None>
+    <None Include="..\Core\Materials\BRDFMaterial\Shaders\Main-FS.glsl">
+      <Filter>Materials\BRDFMaterial\Shaders</Filter>
+    </None>
+    <None Include="..\Core\Materials\BRDFMaterial\Shaders\Main-VS.glsl">
+      <Filter>Materials\BRDFMaterial\Shaders</Filter>
+    </None>
+    <None Include="..\Core\Materials\ColorMaterial\Shaders\Main-FS.glsl">
+      <Filter>Materials\ColorMaterial\Shaders</Filter>
+    </None>
+    <None Include="..\Core\Materials\ColorMaterial\Shaders\Main-VS.glsl">
+      <Filter>Materials\ColorMaterial\Shaders</Filter>
+    </None>
+    <None Include="..\Core\Materials\Common\Grid.glsl">
+      <Filter>Materials\Common</Filter>
+    </None>
+    <None Include="..\Core\Materials\Common\POM.glsl">
+      <Filter>Materials\Common</Filter>
+    </None>
+    <None Include="..\Core\Materials\Common\Common.glsl">
+      <Filter>Materials\Common</Filter>
+    </None>
+    <None Include="..\Core\Materials\Common\Lighting\Lighting.glsl">
+      <Filter>Materials\Common\Lighting</Filter>
+    </None>
+    <None Include="..\Core\Materials\Common\Lighting\Lighting shadow.glsl">
+      <Filter>Materials\Common\Lighting</Filter>
+    </None>
+    <None Include="..\Core\Materials\Common\BRDF\diffuse\Minnaert_default.json">
+      <Filter>Materials\Common\BRDF\diffuse</Filter>
+    </None>
+    <None Include="..\Core\Materials\Common\BRDF\diffuse\OrenNayar.glsl">
+      <Filter>Materials\Common\BRDF\diffuse</Filter>
+    </None>
+    <None Include="..\Core\Materials\Common\BRDF\diffuse\OrenNayar_default.json">
+      <Filter>Materials\Common\BRDF\diffuse</Filter>
+    </None>
+    <None Include="..\Core\Materials\Common\BRDF\diffuse\lambert.glsl">
+      <Filter>Materials\Common\BRDF\diffuse</Filter>
+    </None>
+    <None Include="..\Core\Materials\Common\BRDF\diffuse\Minnaert.glsl">
+      <Filter>Materials\Common\BRDF\diffuse</Filter>
+    </None>
+    <None Include="..\Core\Materials\Common\BRDF\other\Walter_default.json">
+      <Filter>Materials\Common\BRDF\other</Filter>
+    </None>
+    <None Include="..\Core\Materials\Common\BRDF\other\Ward.glsl">
+      <Filter>Materials\Common\BRDF\other</Filter>
+    </None>
+    <None Include="..\Core\Materials\Common\BRDF\other\Ward_default.json">
+      <Filter>Materials\Common\BRDF\other</Filter>
+    </None>
+    <None Include="..\Core\Materials\Common\BRDF\other\AshikhmanShirley.glsl">
+      <Filter>Materials\Common\BRDF\other</Filter>
+    </None>
+    <None Include="..\Core\Materials\Common\BRDF\other\AshikhmanShirley_default.json">
+      <Filter>Materials\Common\BRDF\other</Filter>
+    </None>
+    <None Include="..\Core\Materials\Common\BRDF\other\Walter.glsl">
+      <Filter>Materials\Common\BRDF\other</Filter>
+    </None>
+    <None Include="..\Core\Materials\Common\BRDF\reflectance\Exponential_default.json">
+      <Filter>Materials\Common\BRDF\reflectance</Filter>
+    </None>
+    <None Include="..\Core\Materials\Common\BRDF\reflectance\GGX.glsl">
+      <Filter>Materials\Common\BRDF\reflectance</Filter>
+    </None>
+    <None Include="..\Core\Materials\Common\BRDF\reflectance\GGX_default.json">
+      <Filter>Materials\Common\BRDF\reflectance</Filter>
+    </None>
+    <None Include="..\Core\Materials\Common\BRDF\reflectance\Nishino.glsl">
+      <Filter>Materials\Common\BRDF\reflectance</Filter>
+    </None>
+    <None Include="..\Core\Materials\Common\BRDF\reflectance\Nishino_default.json">
+      <Filter>Materials\Common\BRDF\reflectance</Filter>
+    </None>
+    <None Include="..\Core\Materials\Common\BRDF\reflectance\phong.glsl">
+      <Filter>Materials\Common\BRDF\reflectance</Filter>
+    </None>
+    <None Include="..\Core\Materials\Common\BRDF\reflectance\Phong_default.json">
+      <Filter>Materials\Common\BRDF\reflectance</Filter>
+    </None>
+    <None Include="..\Core\Materials\Common\BRDF\reflectance\StretchedPhong.glsl">
+      <Filter>Materials\Common\BRDF\reflectance</Filter>
+    </None>
+    <None Include="..\Core\Materials\Common\BRDF\reflectance\StretchedPhong_default.json">
+      <Filter>Materials\Common\BRDF\reflectance</Filter>
+    </None>
+    <None Include="..\Core\Materials\Common\BRDF\reflectance\Trowbridge.glsl">
+      <Filter>Materials\Common\BRDF\reflectance</Filter>
+    </None>
+    <None Include="..\Core\Materials\Common\BRDF\reflectance\Trowbridge_default.json">
+      <Filter>Materials\Common\BRDF\reflectance</Filter>
+    </None>
+    <None Include="..\Core\Materials\Common\BRDF\reflectance\Beckmann.glsl">
+      <Filter>Materials\Common\BRDF\reflectance</Filter>
+    </None>
+    <None Include="..\Core\Materials\Common\BRDF\reflectance\Beckmann_default.json">
+      <Filter>Materials\Common\BRDF\reflectance</Filter>
+    </None>
+    <None Include="..\Core\Materials\Common\BRDF\reflectance\Blinn.glsl">
+      <Filter>Materials\Common\BRDF\reflectance</Filter>
+    </None>
+    <None Include="..\Core\Materials\Common\BRDF\reflectance\Blinn_default.json">
+      <Filter>Materials\Common\BRDF\reflectance</Filter>
+    </None>
+    <None Include="..\Core\Materials\Common\BRDF\reflectance\BlinnPhong.glsl">
+      <Filter>Materials\Common\BRDF\reflectance</Filter>
+    </None>
+    <None Include="..\Core\Materials\Common\BRDF\reflectance\BlinnPhong_default.json">
+      <Filter>Materials\Common\BRDF\reflectance</Filter>
+    </None>
+    <None Include="..\Core\Materials\Common\BRDF\reflectance\CookTorrance.glsl">
+      <Filter>Materials\Common\BRDF\reflectance</Filter>
+    </None>
+    <None Include="..\Core\Materials\Common\BRDF\reflectance\CookTorrance_default.json">
+      <Filter>Materials\Common\BRDF\reflectance</Filter>
+    </None>
+    <None Include="..\Core\Materials\Common\BRDF\reflectance\Exponential.glsl">
+      <Filter>Materials\Common\BRDF\reflectance</Filter>
+    </None>
+    <None Include="..\Core\Materials\Common\BRDF\templates\FS-template.tglsl">
+      <Filter>Materials\Common\BRDF\templates</Filter>
+    </None>
+    <None Include="..\Core\Materials\Common\BRDF\templates\VS-template.tglsl">
+      <Filter>Materials\Common\BRDF\templates</Filter>
+    </None>
+    <None Include="..\Core\Materials\DeferredMaterial\Shaders\Main-VS.glsl">
+      <Filter>Materials\DeferredMaterial\Shaders</Filter>
+    </None>
+    <None Include="..\Core\Materials\DeferredMaterial\Shaders\Main-FS.glsl">
+      <Filter>Materials\DeferredMaterial\Shaders</Filter>
+    </None>
+    <None Include="..\Core\Materials\GBuffersMaterial\Shaders\Main-FS.glsl">
+      <Filter>Materials\GBuffersMaterial\Shaders</Filter>
+    </None>
+    <None Include="..\Core\Materials\GBuffersMaterial\Shaders\Main-VS.glsl">
+      <Filter>Materials\GBuffersMaterial\Shaders</Filter>
+    </None>
+    <None Include="..\Core\Materials\LightMaterial\Shaders\Main-VS.glsl">
+      <Filter>Materials\LightMaterial\Shaders</Filter>
+    </None>
+    <None Include="..\Core\Materials\LightMaterial\Shaders\Main-FS.glsl">
+      <Filter>Materials\LightMaterial\Shaders</Filter>
+    </None>
+    <None Include="..\Core\Materials\TextureMaterial\Shaders\Main-FS.glsl">
+      <Filter>Materials\TextureMaterial\Shaders</Filter>
+    </None>
+    <None Include="..\Core\Materials\TextureMaterial\Shaders\Main-VS.glsl">
+      <Filter>Materials\TextureMaterial\Shaders</Filter>
+    </None>
+    <None Include="Materials\MoonMaterial\Shaders\Main-FS.glsl">
+      <Filter>Materials\MoonMaterial\Shaders</Filter>
+    </None>
+    <None Include="Materials\MoonMaterial\Shaders\Main-VS.glsl">
+      <Filter>Materials\MoonMaterial\Shaders</Filter>
+    </None>
+    <None Include="Materials\SpaceMaterial\Shaders\Main-FS.glsl">
+      <Filter>Materials\SpaceMaterial\Shaders</Filter>
+    </None>
+    <None Include="Materials\SpaceMaterial\Shaders\Main-VS.glsl">
+      <Filter>Materials\SpaceMaterial\Shaders</Filter>
+    </None>
+    <None Include="Materials\SunMaterial\Shaders\Main-FS.glsl">
+      <Filter>Materials\SunMaterial\Shaders</Filter>
+    </None>
+    <None Include="Materials\SunMaterial\Shaders\Main-VS.glsl">
+      <Filter>Materials\SunMaterial\Shaders</Filter>
+    </None>
+    <None Include="Materials\EnvMaterial\Shaders\Main-FS.glsl">
+      <Filter>Materials\EnvMaterial\Shaders</Filter>
+    </None>
+    <None Include="Materials\EnvMaterial\Shaders\Main-VS.glsl">
+      <Filter>Materials\EnvMaterial\Shaders</Filter>
+    </None>
+    <None Include="Materials\SmokeMaterial\Shaders\Main-FS.glsl">
+      <Filter>Materials\MoonMaterial\SmokeMaterial\Shaders</Filter>
+    </None>
+    <None Include="Materials\SmokeMaterial\Shaders\Main-VS.glsl">
+      <Filter>Materials\MoonMaterial\SmokeMaterial\Shaders</Filter>
+    </None>
+    <None Include="Materials\GrassGroundMaterial\Shaders\Main-VS.glsl">
+      <Filter>Materials\GrassGroundMaterial\Shaders</Filter>
+    </None>
+    <None Include="Materials\GrassGroundMaterial\Shaders\Main-FS.glsl">
+      <Filter>Materials\GrassGroundMaterial\Shaders</Filter>
+    </None>
+    <None Include="Materials\DirtGroundMaterial\Shaders\Main-VS.glsl">
+      <Filter>Materials\DirtGroundMaterial\Shaders</Filter>
+    </None>
+    <None Include="Materials\DirtGroundMaterial\Shaders\Main-FS.glsl">
+      <Filter>Materials\DirtGroundMaterial\Shaders</Filter>
+    </None>
+    <None Include="Materials\TreeMaterial\Shaders\Main-VS.glsl">
+      <Filter>Materials\TreeMaterial\Shaders</Filter>
+    </None>
+    <None Include="Materials\TreeMaterial\Shaders\Main-FS.glsl">
+      <Filter>Materials\TreeMaterial\Shaders</Filter>
+    </None>
+    <None Include="Materials\TrunkMaterial\Shaders\Main-VS.glsl">
+      <Filter>Materials\TrunkMaterial\Shaders</Filter>
+    </None>
+    <None Include="Materials\TrunkMaterial\Shaders\Main-FS.glsl">
+      <Filter>Materials\TrunkMaterial\Shaders</Filter>
+    </None>
+    <None Include="Materials\RockMaterial\Shaders\Main-VS.glsl">
+      <Filter>Materials\RockMaterial\Shaders</Filter>
+    </None>
+    <None Include="Materials\RockMaterial\Shaders\Main-FS.glsl">
+      <Filter>Materials\RockMaterial\Shaders</Filter>
+    </None>
+    <None Include="Materials\ThunderBoltMaterial\Shaders\Main-VS.glsl">
+      <Filter>Materials\ThunderBoltMaterial\Shaders</Filter>
+    </None>
+    <None Include="Materials\ThunderBoltMaterial\Shaders\Main-FS.glsl">
+      <Filter>Materials\ThunderBoltMaterial\Shaders</Filter>
+    </None>
+    <None Include="Materials\SpaceShipMaterial\Shaders\Main-VS.glsl">
+      <Filter>Materials\SpaceShipMaterial\Shaders</Filter>
+    </None>
+    <None Include="Materials\SpaceShipMaterial\Shaders\Main-FS.glsl">
+      <Filter>Materials\SpaceShipMaterial\Shaders</Filter>
+    </None>
+    <None Include="Materials\GlassMaterial\Shaders\Main-VS.glsl">
+      <Filter>Materials\GlassMaterial\Shaders</Filter>
+    </None>
+    <None Include="Materials\GlassMaterial\Shaders\Main-FS.glsl">
+      <Filter>Materials\GlassMaterial\Shaders</Filter>
+    </None>
+    <None Include="Materials\ReactorFireMaterial\Shaders\Main-VS.glsl">
+      <Filter>Materials\ReactorFireMaterial\Shaders</Filter>
+    </None>
+    <None Include="Materials\ReactorFireMaterial\Shaders\Main-FS.glsl">
+      <Filter>Materials\ReactorFireMaterial\Shaders</Filter>
+    </None>
+    <None Include="Materials\ReactorMaterial\Shaders\Main-VS.glsl">
+      <Filter>Materials\ReactorMaterial\Shaders</Filter>
+    </None>
+    <None Include="Materials\ReactorMaterial\Shaders\Main-FS.glsl">
+      <Filter>Materials\ReactorMaterial\Shaders</Filter>
+    </None>
+    <None Include="Materials\BaseFireMaterial\Shaders\Main-VS.glsl">
+      <Filter>Materials\BaseFireMaterial\Shaders</Filter>
+    </None>
+    <None Include="Materials\BaseFireMaterial\Shaders\Main-FS.glsl">
+      <Filter>Materials\BaseFireMaterial\Shaders</Filter>
+    </None>
+    <None Include="Materials\CampFireMaterial\Shaders\Main-FS.glsl">
+      <Filter>Materials\CampFireMaterial\Shaders</Filter>
+    </None>
+    <None Include="Materials\CampFireMaterial\Shaders\Main-VS.glsl">
+      <Filter>Materials\CampFireMaterial\Shaders</Filter>
+    </None>
+    <None Include="Materials\TreeShadowMaterial\Shaders\Main-VS.glsl">
+      <Filter>Materials\TreeShadowMaterial\Shaders</Filter>
+    </None>
+    <None Include="Materials\TreeShadowMaterial\Shaders\Main-FS.glsl">
+      <Filter>Materials\TreeShadowMaterial\Shaders</Filter>
+    </None>
+    <None Include="Materials\SmokeFireMaterial\Shaders\Main-VS.glsl">
+      <Filter>Materials\SmokeFireMaterial\Shaders</Filter>
+    </None>
+    <None Include="Materials\SmokeFireMaterial\Shaders\Main-FS.glsl">
+      <Filter>Materials\SmokeFireMaterial\Shaders</Filter>
+    </None>
+    <None Include="Materials\SunLightMaterial\Shaders\Main-VS.glsl">
+      <Filter>Materials\SunLightMaterial\Shaders</Filter>
+    </None>
+    <None Include="Materials\SunLightMaterial\Shaders\Main-FS.glsl">
+      <Filter>Materials\SunLightMaterial\Shaders</Filter>
+    </None>
+    <None Include="Materials\FireLightMaterial\Shaders\Main-FS.glsl">
+      <Filter>Materials\FireLightMaterial\Shaders</Filter>
+    </None>
+    <None Include="Materials\FireLightMaterial\Shaders\Main-VS.glsl">
+      <Filter>Materials\FireLightMaterial\Shaders</Filter>
+    </None>
+  </ItemGroup>
+  <ItemGroup>
+    <ResourceCompile Include="MyProject.rc" />
+    <ResourceCompile Include="MyProject1.rc" />
+  </ItemGroup>
+</Project>

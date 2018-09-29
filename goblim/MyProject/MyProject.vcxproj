@@ -1,0 +1,400 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project DefaultTargets="Build" ToolsVersion="15.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup Label="ProjectConfigurations">
+    <ProjectConfiguration Include="Debug|Win32">
+      <Configuration>Debug</Configuration>
+      <Platform>Win32</Platform>
+    </ProjectConfiguration>
+    <ProjectConfiguration Include="Debug|x64">
+      <Configuration>Debug</Configuration>
+      <Platform>x64</Platform>
+    </ProjectConfiguration>
+    <ProjectConfiguration Include="Release|Win32">
+      <Configuration>Release</Configuration>
+      <Platform>Win32</Platform>
+    </ProjectConfiguration>
+    <ProjectConfiguration Include="Release|x64">
+      <Configuration>Release</Configuration>
+      <Platform>x64</Platform>
+    </ProjectConfiguration>
+  </ItemGroup>
+  <ItemGroup>
+    <ClCompile Include="..\Core\Materials\BoundingBoxMaterial\BoundingBoxMaterial.cpp" />
+    <ClCompile Include="..\Core\Materials\BRDFMaterial\BRDFMaterial.cpp" />
+    <ClCompile Include="..\Core\Materials\ColorMaterial\ColorMaterial.cpp" />
+    <ClCompile Include="..\Core\Materials\DeferredMaterial\DeferredMaterial.cpp" />
+    <ClCompile Include="..\Core\Materials\GBuffersMaterial\GBuffersMaterial.cpp" />
+    <ClCompile Include="..\Core\Materials\LightMaterial\LightMaterial.cpp" />
+    <ClCompile Include="..\Core\Materials\TextureMaterial\TextureMaterial.cpp" />
+    <ClCompile Include="..\MyProject\Sources\Main.cpp" />
+    <ClCompile Include="..\MyProject\Sources\SampleEngine.cpp" />
+    <ClCompile Include="Effects\Blur\Blur.cpp" />
+    <ClCompile Include="Materials\BaseFireMaterial\BaseFireMaterial.cpp" />
+    <ClCompile Include="Materials\CampFireMaterial\CampFireMaterial.cpp" />
+    <ClCompile Include="Materials\DirtGroundMaterial\DirtGroundMaterial.cpp" />
+    <ClCompile Include="Materials\EnvMaterial\EnvMaterial.cpp" />
+    <ClCompile Include="Materials\FireLightMaterial\FireLightMaterial.cpp" />
+    <ClCompile Include="Materials\GlassMaterial\GlassMaterial.cpp" />
+    <ClCompile Include="Materials\GrassGroundMaterial\GrassGroundMaterial.cpp" />
+    <ClCompile Include="Materials\MoonMaterial\MoonMaterial.cpp" />
+    <ClCompile Include="Materials\ReactorFireMaterial\ReactorFireMaterial.cpp" />
+    <ClCompile Include="Materials\ReactorMaterial\ReactorMaterial.cpp" />
+    <ClCompile Include="Materials\RockMaterial\RockMaterial.cpp" />
+    <ClCompile Include="Materials\SmokeFireMaterial\SmokeFireMaterial.cpp" />
+    <ClCompile Include="Materials\SmokeMaterial\SmokeMaterial.cpp" />
+    <ClCompile Include="Materials\SpaceMaterial\SpaceMaterial.cpp" />
+    <ClCompile Include="Materials\SpaceShipMaterial\SpaceShipMaterial.cpp" />
+    <ClCompile Include="Materials\SunLightMaterial\SunLightMaterial.cpp" />
+    <ClCompile Include="Materials\SunMaterial\SunMaterial.cpp" />
+    <ClCompile Include="Materials\ThunderBoltMaterial\ThunderBoltMaterial.cpp" />
+    <ClCompile Include="Materials\TPMaterial\TPMaterial.cpp" />
+    <ClCompile Include="Materials\TreeMaterial\TreeMaterial.cpp" />
+    <ClCompile Include="Materials\TreeShadowMaterial\TreeShadowMaterial.cpp" />
+    <ClCompile Include="Materials\TrunkMaterial\TrunkMaterial.cpp" />
+    <ClCompile Include="Sources\GoblimApplication.cpp" />
+    <ClCompile Include="Sources\SampleEngine_Deferred.cpp" />
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="..\Core\Materials\BoundingBoxMaterial\BoundingBoxMaterial.h" />
+    <ClInclude Include="..\Core\Materials\BRDFMaterial\BRDFMaterial.hpp" />
+    <ClInclude Include="..\Core\Materials\ColorMaterial\ColorMaterial.h" />
+    <ClInclude Include="..\Core\Materials\DeferredMaterial\DeferredMaterial.h" />
+    <ClInclude Include="..\Core\Materials\GBuffersMaterial\GBuffersMaterial.h" />
+    <ClInclude Include="..\Core\Materials\LightMaterial\LightMaterial.h" />
+    <ClInclude Include="..\Core\Materials\TextureMaterial\TextureMaterial.h" />
+    <ClInclude Include="..\MyProject\Sources\SampleEngine.h" />
+    <ClInclude Include="Effects\Blur\Blur.h" />
+    <ClInclude Include="Materials\BaseFireMaterial\BaseFireMaterial.h" />
+    <ClInclude Include="Materials\CampFireMaterial\CampFireMaterial.h" />
+    <ClInclude Include="Materials\DirtGroundMaterial\DirtGroundMaterial.h" />
+    <ClInclude Include="Materials\EnvMaterial\EnvMaterial.h" />
+    <ClInclude Include="Materials\FireLightMaterial\FireLightMaterial.h" />
+    <ClInclude Include="Materials\GlassMaterial\GlassMaterial.h" />
+    <ClInclude Include="Materials\GrassGroundMaterial\GrassGroundMaterial.h" />
+    <ClInclude Include="Materials\MoonMaterial\MoonMaterial.h" />
+    <ClInclude Include="Materials\ReactorFireMaterial\ReactorFireMaterial.h" />
+    <ClInclude Include="Materials\ReactorMaterial\ReactorMaterial.h" />
+    <ClInclude Include="Materials\RockMaterial\RockMaterial.h" />
+    <ClInclude Include="Materials\SmokeFireMaterial\SmokeFireMaterial.h" />
+    <ClInclude Include="Materials\SmokeMaterial\SmokeMaterial.h" />
+    <ClInclude Include="Materials\SpaceMaterial\SpaceMaterial.h" />
+    <ClInclude Include="Materials\SpaceShipMaterial\SpaceShipMaterial.h" />
+    <ClInclude Include="Materials\SunLightMaterial\SunLightMaterial.h" />
+    <ClInclude Include="Materials\SunMaterial\SunMaterial.h" />
+    <ClInclude Include="Materials\ThunderBoltMaterial\ThunderBoltMaterial.h" />
+    <ClInclude Include="Materials\TPMaterial\TPMaterial.h" />
+    <ClInclude Include="Materials\TreeMaterial\TreeMaterial.h" />
+    <ClInclude Include="Materials\TreeShadowMaterial\TreeShadowMaterial.h" />
+    <ClInclude Include="Materials\TrunkMaterial\TrunkMaterial.h" />
+    <ClInclude Include="resource.h" />
+    <ClInclude Include="resource1.h" />
+    <ClInclude Include="Sources\GoblimApplication.h" />
+    <ClInclude Include="Sources\SampleEngine_Deferred.h" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="..\Core\Materials\BaseMaterial\Main-FS.glsl" />
+    <None Include="..\Core\Materials\BaseMaterial\Main-VS.glsl" />
+    <None Include="..\Core\Materials\BoundingBoxMaterial\Shaders\Main-FS.glsl" />
+    <None Include="..\Core\Materials\BoundingBoxMaterial\Shaders\Main-VS.glsl" />
+    <None Include="..\Core\Materials\BRDFMaterial\Shaders\Main-FS.glsl" />
+    <None Include="..\Core\Materials\BRDFMaterial\Shaders\Main-VS.glsl" />
+    <None Include="..\Core\Materials\ColorMaterial\Shaders\Main-FS.glsl" />
+    <None Include="..\Core\Materials\ColorMaterial\Shaders\Main-VS.glsl" />
+    <None Include="..\Core\Materials\Common\BRDF\diffuse\lambert.glsl" />
+    <None Include="..\Core\Materials\Common\BRDF\diffuse\Minnaert.glsl" />
+    <None Include="..\Core\Materials\Common\BRDF\diffuse\Minnaert_default.json" />
+    <None Include="..\Core\Materials\Common\BRDF\diffuse\OrenNayar.glsl" />
+    <None Include="..\Core\Materials\Common\BRDF\diffuse\OrenNayar_default.json" />
+    <None Include="..\Core\Materials\Common\BRDF\other\AshikhmanShirley.glsl" />
+    <None Include="..\Core\Materials\Common\BRDF\other\AshikhmanShirley_default.json" />
+    <None Include="..\Core\Materials\Common\BRDF\other\Walter.glsl" />
+    <None Include="..\Core\Materials\Common\BRDF\other\Walter_default.json" />
+    <None Include="..\Core\Materials\Common\BRDF\other\Ward.glsl" />
+    <None Include="..\Core\Materials\Common\BRDF\other\Ward_default.json" />
+    <None Include="..\Core\Materials\Common\BRDF\reflectance\Beckmann.glsl" />
+    <None Include="..\Core\Materials\Common\BRDF\reflectance\Beckmann_default.json" />
+    <None Include="..\Core\Materials\Common\BRDF\reflectance\Blinn.glsl" />
+    <None Include="..\Core\Materials\Common\BRDF\reflectance\BlinnPhong.glsl" />
+    <None Include="..\Core\Materials\Common\BRDF\reflectance\BlinnPhong_default.json" />
+    <None Include="..\Core\Materials\Common\BRDF\reflectance\Blinn_default.json" />
+    <None Include="..\Core\Materials\Common\BRDF\reflectance\CookTorrance.glsl" />
+    <None Include="..\Core\Materials\Common\BRDF\reflectance\CookTorrance_default.json" />
+    <None Include="..\Core\Materials\Common\BRDF\reflectance\Exponential.glsl" />
+    <None Include="..\Core\Materials\Common\BRDF\reflectance\Exponential_default.json" />
+    <None Include="..\Core\Materials\Common\BRDF\reflectance\GGX.glsl" />
+    <None Include="..\Core\Materials\Common\BRDF\reflectance\GGX_default.json" />
+    <None Include="..\Core\Materials\Common\BRDF\reflectance\Nishino.glsl" />
+    <None Include="..\Core\Materials\Common\BRDF\reflectance\Nishino_default.json" />
+    <None Include="..\Core\Materials\Common\BRDF\reflectance\phong.glsl" />
+    <None Include="..\Core\Materials\Common\BRDF\reflectance\Phong_default.json" />
+    <None Include="..\Core\Materials\Common\BRDF\reflectance\StretchedPhong.glsl" />
+    <None Include="..\Core\Materials\Common\BRDF\reflectance\StretchedPhong_default.json" />
+    <None Include="..\Core\Materials\Common\BRDF\reflectance\Trowbridge.glsl" />
+    <None Include="..\Core\Materials\Common\BRDF\reflectance\Trowbridge_default.json" />
+    <None Include="..\Core\Materials\Common\BRDF\templates\FS-template.tglsl" />
+    <None Include="..\Core\Materials\Common\BRDF\templates\VS-template.tglsl" />
+    <None Include="..\Core\Materials\Common\Common.glsl" />
+    <None Include="..\Core\Materials\Common\Grid.glsl" />
+    <None Include="..\Core\Materials\Common\Lighting\Lighting shadow.glsl" />
+    <None Include="..\Core\Materials\Common\Lighting\Lighting.glsl" />
+    <None Include="..\Core\Materials\Common\POM.glsl" />
+    <None Include="..\Core\Materials\DeferredMaterial\Shaders\Main-FS.glsl" />
+    <None Include="..\Core\Materials\DeferredMaterial\Shaders\Main-VS.glsl" />
+    <None Include="..\Core\Materials\GBuffersMaterial\Shaders\Main-FS.glsl" />
+    <None Include="..\Core\Materials\GBuffersMaterial\Shaders\Main-VS.glsl" />
+    <None Include="..\Core\Materials\LightMaterial\Shaders\Main-FS.glsl" />
+    <None Include="..\Core\Materials\LightMaterial\Shaders\Main-VS.glsl" />
+    <None Include="..\Core\Materials\TextureMaterial\Shaders\Main-FS.glsl" />
+    <None Include="..\Core\Materials\TextureMaterial\Shaders\Main-VS.glsl" />
+    <None Include="Materials\BaseFireMaterial\Shaders\Main-FS.glsl" />
+    <None Include="Materials\BaseFireMaterial\Shaders\Main-VS.glsl" />
+    <None Include="Materials\CampFireMaterial\Shaders\Main-FS.glsl" />
+    <None Include="Materials\CampFireMaterial\Shaders\Main-VS.glsl" />
+    <None Include="Materials\DirtGroundMaterial\Shaders\Main-FS.glsl" />
+    <None Include="Materials\DirtGroundMaterial\Shaders\Main-VS.glsl" />
+    <None Include="Materials\EnvMaterial\Shaders\Main-FS.glsl" />
+    <None Include="Materials\EnvMaterial\Shaders\Main-VS.glsl" />
+    <None Include="Materials\FireLightMaterial\Shaders\Main-FS.glsl" />
+    <None Include="Materials\FireLightMaterial\Shaders\Main-VS.glsl" />
+    <None Include="Materials\GlassMaterial\Shaders\Main-FS.glsl" />
+    <None Include="Materials\GlassMaterial\Shaders\Main-VS.glsl" />
+    <None Include="Materials\GrassGroundMaterial\Shaders\Main-FS.glsl" />
+    <None Include="Materials\GrassGroundMaterial\Shaders\Main-VS.glsl" />
+    <None Include="Materials\MoonMaterial\Shaders\Main-FS.glsl" />
+    <None Include="Materials\MoonMaterial\Shaders\Main-VS.glsl" />
+    <None Include="Materials\ReactorFireMaterial\Shaders\Main-FS.glsl" />
+    <None Include="Materials\ReactorFireMaterial\Shaders\Main-VS.glsl" />
+    <None Include="Materials\ReactorMaterial\Shaders\Main-FS.glsl" />
+    <None Include="Materials\ReactorMaterial\Shaders\Main-VS.glsl" />
+    <None Include="Materials\RockMaterial\Shaders\Main-FS.glsl" />
+    <None Include="Materials\RockMaterial\Shaders\Main-VS.glsl" />
+    <None Include="Materials\SmokeFireMaterial\Shaders\Main-FS.glsl" />
+    <None Include="Materials\SmokeFireMaterial\Shaders\Main-VS.glsl" />
+    <None Include="Materials\SmokeMaterial\Shaders\Main-FS.glsl" />
+    <None Include="Materials\SmokeMaterial\Shaders\Main-VS.glsl" />
+    <None Include="Materials\SpaceMaterial\Shaders\Main-FS.glsl" />
+    <None Include="Materials\SpaceMaterial\Shaders\Main-VS.glsl" />
+    <None Include="Materials\SpaceShipMaterial\Shaders\Main-FS.glsl" />
+    <None Include="Materials\SpaceShipMaterial\Shaders\Main-VS.glsl" />
+    <None Include="Materials\SunLightMaterial\Shaders\Main-FS.glsl" />
+    <None Include="Materials\SunLightMaterial\Shaders\Main-VS.glsl" />
+    <None Include="Materials\SunMaterial\Shaders\Main-FS.glsl" />
+    <None Include="Materials\SunMaterial\Shaders\Main-VS.glsl" />
+    <None Include="Materials\ThunderBoltMaterial\Shaders\Main-FS.glsl" />
+    <None Include="Materials\ThunderBoltMaterial\Shaders\Main-VS.glsl" />
+    <None Include="Materials\TPMaterial\Shaders\Main-FS.glsl" />
+    <None Include="Materials\TPMaterial\Shaders\Main-VS.glsl" />
+    <None Include="Materials\TreeMaterial\Shaders\Main-FS.glsl" />
+    <None Include="Materials\TreeMaterial\Shaders\Main-VS.glsl" />
+    <None Include="Materials\TreeShadowMaterial\Shaders\Main-FS.glsl" />
+    <None Include="Materials\TreeShadowMaterial\Shaders\Main-VS.glsl" />
+    <None Include="Materials\TrunkMaterial\Shaders\Main-FS.glsl" />
+    <None Include="Materials\TrunkMaterial\Shaders\Main-VS.glsl" />
+  </ItemGroup>
+  <ItemGroup>
+    <ResourceCompile Include="MyProject.rc" />
+    <ResourceCompile Include="MyProject1.rc" />
+  </ItemGroup>
+  <PropertyGroup Label="Globals">
+    <ProjectGuid>{776AE62F-21AF-41C4-9EB2-1EFC9B085FDA}</ProjectGuid>
+    <Keyword>Win32Proj</Keyword>
+    <RootNamespace>BunnyExample</RootNamespace>
+    <ProjectName>MyProject</ProjectName>
+    <WindowsTargetPlatformVersion>10.0.15063.0</WindowsTargetPlatformVersion>
+  </PropertyGroup>
+  <Import Project="$(VCTargetsPath)\Microsoft.Cpp.Default.props" />
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'" Label="Configuration">
+    <ConfigurationType>Application</ConfigurationType>
+    <UseDebugLibraries>true</UseDebugLibraries>
+    <PlatformToolset>v141</PlatformToolset>
+    <CharacterSet>Unicode</CharacterSet>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Debug|x64'" Label="Configuration">
+    <ConfigurationType>Application</ConfigurationType>
+    <UseDebugLibraries>true</UseDebugLibraries>
+    <PlatformToolset>v141</PlatformToolset>
+    <CharacterSet>Unicode</CharacterSet>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Release|Win32'" Label="Configuration">
+    <ConfigurationType>Application</ConfigurationType>
+    <UseDebugLibraries>false</UseDebugLibraries>
+    <PlatformToolset>v141</PlatformToolset>
+    <WholeProgramOptimization>true</WholeProgramOptimization>
+    <CharacterSet>Unicode</CharacterSet>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Release|x64'" Label="Configuration">
+    <ConfigurationType>Application</ConfigurationType>
+    <UseDebugLibraries>false</UseDebugLibraries>
+    <PlatformToolset>v141</PlatformToolset>
+    <WholeProgramOptimization>true</WholeProgramOptimization>
+    <CharacterSet>Unicode</CharacterSet>
+  </PropertyGroup>
+  <Import Project="$(VCTargetsPath)\Microsoft.Cpp.props" />
+  <ImportGroup Label="ExtensionSettings">
+  </ImportGroup>
+  <ImportGroup Label="PropertySheets" Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">
+    <Import Project="$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props" Condition="exists('$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props')" Label="LocalAppDataPlatform" />
+  </ImportGroup>
+  <ImportGroup Condition="'$(Configuration)|$(Platform)'=='Debug|x64'" Label="PropertySheets">
+    <Import Project="$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props" Condition="exists('$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props')" Label="LocalAppDataPlatform" />
+  </ImportGroup>
+  <ImportGroup Label="PropertySheets" Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">
+    <Import Project="$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props" Condition="exists('$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props')" Label="LocalAppDataPlatform" />
+  </ImportGroup>
+  <ImportGroup Condition="'$(Configuration)|$(Platform)'=='Release|x64'" Label="PropertySheets">
+    <Import Project="$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props" Condition="exists('$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props')" Label="LocalAppDataPlatform" />
+  </ImportGroup>
+  <PropertyGroup Label="UserMacros" />
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">
+    <LinkIncremental>true</LinkIncremental>
+    <IncludePath>$(SolutionDir)\..\Libraries\include;$(ProjectDir);$(ProjectDir)\Sources;$(SolutionDir)\..\Core;$(IncludePath)</IncludePath>
+    <LibraryPath>$(SolutionDir)\..\Libraries\lib;C:\Home\Output\GobLimGL4\$(Configuration);$(LibraryPath)</LibraryPath>
+    <OutDir>..\bin</OutDir>
+    <IntDir>..\bin</IntDir>
+    <ExecutablePath>C:\Users\giletp01\Desktop\GobLim-Student-master-dadd930e2a2a6411340e2ae54a55ac3a18b99d2d\Libraries\dll;$(ExecutablePath)</ExecutablePath>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">
+    <LinkIncremental>true</LinkIncremental>
+    <IncludePath>$(SolutionDir)\..\Libraries\include;$(ProjectDir);$(ProjectDir)\Sources;$(SolutionDir)\..\Core;$(IncludePath)</IncludePath>
+    <LibraryPath>$(SolutionDir)\..\Libraries\lib;$(SolutionDir)$(Platform)\$(Configuration)\;$(LibraryPath)</LibraryPath>
+    <ExecutablePath>$(SolutionDir)\..\Libraries\dll;$(ExecutablePath)</ExecutablePath>
+    <OutDir>..\bin</OutDir>
+    <IntDir>..\bin</IntDir>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">
+    <LinkIncremental>false</LinkIncremental>
+    <IncludePath>$(SolutionDir)\..\Libraries\include;$(ProjectDir);$(ProjectDir)\Sources;$(SolutionDir)\..\Core;$(IncludePath)</IncludePath>
+    <LibraryPath>$(SolutionDir)\..\Libraries\lib;C:\Home\Output\GobLimGL4\$(Configuration);$(LibraryPath)</LibraryPath>
+    <OutDir>C:\Home\Output\MyProject\$(Configuration)\</OutDir>
+    <IntDir>C:\Home\Output\MyProject\$(Configuration)\</IntDir>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Release|x64'">
+    <LinkIncremental>false</LinkIncremental>
+    <IncludePath>$(SolutionDir)\..\Libraries\include;$(ProjectDir);$(ProjectDir)\Sources;$(SolutionDir)\..\Core;$(IncludePath)</IncludePath>
+    <LibraryPath>$(SolutionDir)\..\Libraries\lib;$(SolutionDir)$(Platform)\$(Configuration)\;$(LibraryPath)</LibraryPath>
+    <OutDir>C:\Home\Output\MyProject\$(Configuration)\</OutDir>
+    <IntDir>C:\Home\Output\MyProject\$(Configuration)\</IntDir>
+    <ExecutablePath>$(ExecutablePath)</ExecutablePath>
+  </PropertyGroup>
+  <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">
+    <ClCompile>
+      <PrecompiledHeader>
+      </PrecompiledHeader>
+      <WarningLevel>Level3</WarningLevel>
+      <Optimization>Disabled</Optimization>
+      <PreprocessorDefinitions>WIN32;_DEBUG;_CONSOLE;_LIB;%(PreprocessorDefinitions)</PreprocessorDefinitions>
+      <AdditionalIncludeDirectories>$(ProjectDir)\Core\Utils\glad;$(ProjectDir)\..\Engine\OpenGL\Lighting;$(ProjectDir)\..\Engine\Base\Lighting;$(ProjectDir)\..\Effects;$(ProjectDir)\..;$(ProjectDir)\..\GPUResources;$(ProjectDir)\..\Utils;$(ProjectDir)\..\Engine\Base\Animators;$(ProjectDir)\..\Engine;$(ProjectDir)\..\Engine\Base;$(ProjectDir)\..\Engine\OpenGL;$(ProjectDir)\..\Engine\OpenGL\OpenGL4;$(ProjectDir)\..\Engine\OpenGL\Managers;$(ProjectDir)\..\Materials;$(ProjectDir)\Sources;$(ProjectDir)\Materials;$(ProjectDir)\Effects;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+      <MultiProcessorCompilation>true</MultiProcessorCompilation>
+      <MinimalRebuild>false</MinimalRebuild>
+    </ClCompile>
+    <Link>
+      <SubSystem>Console</SubSystem>
+      <GenerateDebugInformation>true</GenerateDebugInformation>
+      <AdditionalDependencies>opengl32.lib;glew32.lib;glfw3.lib;Assimp.lib;AntTweakBar.lib;goblim.lib;SOIL.lib;legacy_stdio_definitions.lib;%(AdditionalDependencies)</AdditionalDependencies>
+      <IgnoreAllDefaultLibraries>
+      </IgnoreAllDefaultLibraries>
+      <IgnoreSpecificDefaultLibraries>MSVCRT.lib</IgnoreSpecificDefaultLibraries>
+    </Link>
+    <PostBuildEvent>
+      <Command>
+      </Command>
+    </PostBuildEvent>
+  </ItemDefinitionGroup>
+  <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">
+    <ClCompile>
+      <PrecompiledHeader>
+      </PrecompiledHeader>
+      <WarningLevel>Level3</WarningLevel>
+      <Optimization>Disabled</Optimization>
+      <PreprocessorDefinitions>WIN32;_DEBUG;_CONSOLE;_LIB;%(PreprocessorDefinitions)</PreprocessorDefinitions>
+      <AdditionalIncludeDirectories>$(ProjectDir)\..\Core\Utils;$(ProjectDir)\..\Engine\OpenGL\Lighting;$(ProjectDir)\..\Engine\Base\Lighting;$(ProjectDir)\..\Effects;$(ProjectDir)\..;$(ProjectDir)\..\GPUResources;$(ProjectDir)\..\Utils;$(ProjectDir)\..\Engine\Base\Animators;$(ProjectDir)\..\Engine;$(ProjectDir)\..\Engine\Base;$(ProjectDir)\..\Engine\OpenGL;$(ProjectDir)\..\Engine\OpenGL\OpenGL4;$(ProjectDir)\..\Engine\OpenGL\Managers;$(ProjectDir)\..\Materials;$(ProjectDir)\Sources;$(ProjectDir)\Materials;$(ProjectDir)\Effects;$(ProjectDir)\Core\Utils\glad;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+      <MultiProcessorCompilation>true</MultiProcessorCompilation>
+      <MinimalRebuild>false</MinimalRebuild>
+    </ClCompile>
+    <Link>
+      <SubSystem>Console</SubSystem>
+      <GenerateDebugInformation>true</GenerateDebugInformation>
+      <AdditionalDependencies>opengl32.lib;Assimp.lib;glfw3.lib;goblim.lib;SOIL.lib;legacy_stdio_definitions.lib;%(AdditionalDependencies)</AdditionalDependencies>
+      <AdditionalLibraryDirectories>..\bin;%(AdditionalLibraryDirectories)</AdditionalLibraryDirectories>
+    </Link>
+    <PostBuildEvent>
+      <Command>
+      </Command>
+    </PostBuildEvent>
+  </ItemDefinitionGroup>
+  <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">
+    <ClCompile>
+      <WarningLevel>Level3</WarningLevel>
+      <PrecompiledHeader>
+      </PrecompiledHeader>
+      <Optimization>MaxSpeed</Optimization>
+      <FunctionLevelLinking>true</FunctionLevelLinking>
+      <IntrinsicFunctions>true</IntrinsicFunctions>
+      <PreprocessorDefinitions>WIN32;NDEBUG;_CONSOLE;_LIB;%(PreprocessorDefinitions)</PreprocessorDefinitions>
+      <AdditionalIncludeDirectories>$(ProjectDir)\..\Engine\OpenGL\Lighting;$(ProjectDir)\..\Engine\Base\Lighting;$(ProjectDir)\..\Effects;$(ProjectDir)\..;$(ProjectDir)\..\GPUResources;$(ProjectDir)\..\Utils;$(ProjectDir)\..\Engine\Base\Animators;$(ProjectDir)\..\Engine;$(ProjectDir)\..\Engine\Base;$(ProjectDir)\..\Engine\OpenGL;$(ProjectDir)\..\Engine\OpenGL\OpenGL4;$(ProjectDir)\..\Engine\OpenGL\Managers;$(ProjectDir)\..\Materials;$(ProjectDir)\Sources;$(ProjectDir)\Materials;$(ProjectDir)\Effects;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+    </ClCompile>
+    <Link>
+      <SubSystem>Console</SubSystem>
+      <GenerateDebugInformation>true</GenerateDebugInformation>
+      <EnableCOMDATFolding>true</EnableCOMDATFolding>
+      <OptimizeReferences>true</OptimizeReferences>
+      <AdditionalDependencies>opengl32.lib;glfw3.lib;glew32.lib;soil.lib;Assimp.lib;AntTweakBar.lib;goblim.lib;%(AdditionalDependencies)</AdditionalDependencies>
+    </Link>
+    <PostBuildEvent>
+      <Command>:: Copy les materiaux généraux (glsl) avec la librairie
+if exist "$(SolutionDir)..\Core\Materials" xcopy "$(SolutionDir)..\Core\Materials\*.glsl" "$(OutDir)\Materials\" /S /I /y /C
+:: Copy les effets (glsl) avec la librairie
+if exist "$(SolutionDir)..\Core\Effects" xcopy "$(SolutionDir)..\Core\Effects\*.glsl" "$(OutDir)\Effects\" /S /I /y /C
+:: copie des objets 3D de base nécessaires au moteur
+if exist "$(SolutionDir)..\Core\Objets" xcopy "$(SolutionDir)..\Core\Objets" "$(OutDir)\Objets\" /S /I /y /C
+:: copie des DLL 
+if exist "$(SolutionDir)..\Libraries\dll" xcopy "$(SolutionDir)..\Libraries\dll\*.dll" "$(OutDir)" /S /I /y /C
+if exist "$(SolutionDir)..\Core\Textures" xcopy "$(SolutionDir)..\Core\Textures" "$(OutDir)\Textures" /S /I /y /C
+if exist "$(SolutionDir)..\Core\Resources" xcopy "$(SolutionDir)..\Core\Resources" "$(OutDir)\Resources" /S /I /y /C
+:: partie pour les sous projets : copies les dossiers dans le dossier finale
+if exist "$(ProjectDir)\Materials" xcopy "$(ProjectDir)\Materials\*.glsl" "$(OutDir)\Materials\" /S /I /y /C
+if exist "$(ProjectDir)\Effects" xcopy "$(ProjectDir)\Effects\*.glsl" "$(OutDir)\Effects\" /S /I /y /C
+if exist "$(ProjectDir)\Objets" xcopy "$(ProjectDir)\Objets" "$(OutDir)\Objets\" /S /I /y /C
+if exist "$(ProjectDir)\Textures" xcopy "$(ProjectDir)\Textures" "$(OutDir)\Textures\" /S /I /y /C</Command>
+    </PostBuildEvent>
+  </ItemDefinitionGroup>
+  <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='Release|x64'">
+    <ClCompile>
+      <WarningLevel>Level3</WarningLevel>
+      <PrecompiledHeader>
+      </PrecompiledHeader>
+      <Optimization>Full</Optimization>
+      <FunctionLevelLinking>true</FunctionLevelLinking>
+      <IntrinsicFunctions>true</IntrinsicFunctions>
+      <PreprocessorDefinitions>WIN32;NDEBUG;_CONSOLE;_LIB;%(PreprocessorDefinitions)</PreprocessorDefinitions>
+      <AdditionalIncludeDirectories>$(ProjectDir)\..\Core\Utils;$(ProjectDir)\..\Engine\OpenGL\Lighting;$(ProjectDir)\..\Engine\Base\Lighting;$(ProjectDir)\..\Effects;$(ProjectDir)\..;$(ProjectDir)\..\GPUResources;$(ProjectDir)\..\Utils;$(ProjectDir)\..\Engine\Base\Animators;$(ProjectDir)\..\Engine;$(ProjectDir)\..\Engine\Base;$(ProjectDir)\..\Engine\OpenGL;$(ProjectDir)\..\Engine\OpenGL\OpenGL4;$(ProjectDir)\..\Engine\OpenGL\Managers;$(ProjectDir)\..\Materials;$(ProjectDir)\Sources;$(ProjectDir)\Materials;$(ProjectDir)\Effects;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+    </ClCompile>
+    <Link>
+      <SubSystem>Console</SubSystem>
+      <GenerateDebugInformation>true</GenerateDebugInformation>
+      <EnableCOMDATFolding>true</EnableCOMDATFolding>
+      <OptimizeReferences>true</OptimizeReferences>
+      <AdditionalDependencies>opengl32.lib;glfw3.lib;glew32.lib;soil.lib;Assimp.lib;AntTweakBar.lib;goblim.lib;%(AdditionalDependencies)</AdditionalDependencies>
+    </Link>
+    <PostBuildEvent>
+      <Command>:: Copy les materiaux généraux (glsl) avec la librairie
+if exist "$(SolutionDir)..\Core\Materials" xcopy "$(SolutionDir)..\Core\Materials\*.glsl" "$(OutDir)\Materials\" /S /I /y /C
+:: Copy les effets (glsl) avec la librairie
+if exist "$(SolutionDir)..\Core\Effects" xcopy "$(SolutionDir)..\Core\Effects\*.glsl" "$(OutDir)\Effects\" /S /I /y /C
+:: copie des objets 3D de base nécessaires au moteur
+if exist "$(SolutionDir)..\Core\Objets" xcopy "$(SolutionDir)..\Core\Objets" "$(OutDir)\Objets\" /S /I /y /C
+:: copie des DLL 
+if exist "$(SolutionDir)..\Libraries\dll" xcopy "$(SolutionDir)..\Libraries\dll\*.dll" "$(OutDir)" /S /I /y /C
+if exist "$(SolutionDir)..\Core\Textures" xcopy "$(SolutionDir)..\Core\Textures" "$(OutDir)\Textures" /S /I /y /C
+if exist "$(SolutionDir)..\Core\Resources" xcopy "$(SolutionDir)..\Core\Resources" "$(OutDir)\Resources" /S /I /y /C
+:: partie pour les sous projets : copies les dossiers dans le dossier finale
+if exist "$(ProjectDir)\Materials" xcopy "$(ProjectDir)\Materials\*.glsl" "$(OutDir)\Materials\" /S /I /y /C
+if exist "$(ProjectDir)\Effects" xcopy "$(ProjectDir)\Effects\*.glsl" "$(OutDir)\Effects\" /S /I /y /C
+if exist "$(ProjectDir)\Objets" xcopy "$(ProjectDir)\Objets" "$(OutDir)\Objets\" /S /I /y /C
+if exist "$(ProjectDir)\Textures" xcopy "$(ProjectDir)\Textures" "$(OutDir)\Textures\" /S /I /y /C</Command>
+    </PostBuildEvent>
+  </ItemDefinitionGroup>
+  <Import Project="$(VCTargetsPath)\Microsoft.Cpp.targets" />
+  <ImportGroup Label="ExtensionTargets">
+  </ImportGroup>
+</Project>

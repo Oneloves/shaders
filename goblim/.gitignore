@@ -1,0 +1,9 @@
+*.po
+*.users
+.fuse*
+LinuxSublimeSolution/bin/
+LinuxSublimeSolution/build/
+Visual2015Solution/x64/
+Visual2015Solution/.vs/
+bin/
+

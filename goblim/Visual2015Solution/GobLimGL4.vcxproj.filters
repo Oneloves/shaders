@@ -1,0 +1,999 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <Filter Include="Fichiers sources">
+      <UniqueIdentifier>{4FC737F1-C7A5-4376-A066-2A32D752A2FF}</UniqueIdentifier>
+      <Extensions>cpp;c;cc;cxx;def;odl;idl;hpj;bat;asm;asmx</Extensions>
+    </Filter>
+    <Filter Include="Fichiers sources\Engine">
+      <UniqueIdentifier>{ef7de098-8720-48c1-8f47-8e0cfe91d920}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Fichiers sources\Materials">
+      <UniqueIdentifier>{76b2b991-27e7-4c1a-9837-fe8f2e8e57b2}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Fichiers sources\Utils">
+      <UniqueIdentifier>{1862a6b6-41a1-4535-9afe-9891800fa476}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Fichiers sources\Engine\Base">
+      <UniqueIdentifier>{df2eae50-cad6-4052-acd7-38eccce9c765}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Fichiers sources\Engine\OpenGL">
+      <UniqueIdentifier>{4ccb866a-7886-400b-822b-fdcbbe8c26d9}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Fichiers sources\Engine\Base\BoundingBox">
+      <UniqueIdentifier>{3e42ff22-d68e-4794-b611-64d214a52dc6}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Fichiers sources\Engine\Base\GeometricModelLoader">
+      <UniqueIdentifier>{2ac4cea2-651c-4e69-8598-cfa5f899168d}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Fichiers sources\Engine\Base\Lighting">
+      <UniqueIdentifier>{35701306-c662-4377-bde2-b40aae24ecd0}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Fichiers sources\Engine\Base\NodeCollectors">
+      <UniqueIdentifier>{ed81efdb-6c7c-4dcb-9b0c-862726c038a2}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Fichiers sources\Engine\Base\Animators">
+      <UniqueIdentifier>{e5a0bba8-04a7-4032-bbc7-96af6cb4548e}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Fichiers sources\Engine\OpenGL\BoundingBox">
+      <UniqueIdentifier>{ab14e11d-7543-47b7-a781-b5786f0a195e}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Fichiers sources\Engine\OpenGL\Lighting">
+      <UniqueIdentifier>{d9d5cbcb-eee6-49ac-993f-d64875af0aba}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Fichiers sources\Engine\OpenGL\Managers">
+      <UniqueIdentifier>{a71b8c2f-924e-441d-a611-fdb102665b1d}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Fichiers sources\Effects">
+      <UniqueIdentifier>{3462f9d9-a9ea-4fea-9054-3916cc95c396}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Fichiers sources\GPUResources">
+      <UniqueIdentifier>{669ee3f5-be3c-4d63-9141-e037945777df}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Fichiers sources\GPUResources\Buffers">
+      <UniqueIdentifier>{b86c1d4f-8fac-42e1-930d-4ac6de61f81c}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Fichiers sources\GPUResources\FBO">
+      <UniqueIdentifier>{22c99466-d969-41ec-9546-5c71b9e7050c}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Fichiers sources\GPUResources\Query">
+      <UniqueIdentifier>{60caa5e9-1b14-485b-a41a-1192e974ead0}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Fichiers sources\GPUResources\Textures">
+      <UniqueIdentifier>{d2809b37-5690-481a-909b-1c5498f43580}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Fichiers sources\GPUResources\TransformFeedback">
+      <UniqueIdentifier>{2aa06ba2-1e6f-4091-9112-d678eaf5b392}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Fichiers sources\Utils\ImageReader">
+      <UniqueIdentifier>{e6666400-401b-4781-b779-80099f050edb}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Fichiers sources\Utils\ImageUtilities">
+      <UniqueIdentifier>{1aaa755f-93d9-4f17-a639-70f80c34b240}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Fichiers sources\Effects\BilateralFilter">
+      <UniqueIdentifier>{83b626ab-1071-4857-a871-66cfc873b0e8}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Fichiers sources\Effects\Composition">
+      <UniqueIdentifier>{44e4aa74-4be1-42d0-a443-7e2b39422705}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Fichiers sources\Effects\DisplayImage">
+      <UniqueIdentifier>{bc8e5efd-5dae-4df9-92b2-00b1b2e876b4}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Fichiers sources\Effects\DisplayLayer">
+      <UniqueIdentifier>{cbd02aa2-2df4-4f40-bd37-aaa79bdb9497}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Fichiers sources\Effects\DisplayResource">
+      <UniqueIdentifier>{43bf3237-c4ff-4f3b-9429-067a94a8efc6}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Fichiers sources\Materials\Common">
+      <UniqueIdentifier>{88a00c58-2da8-42e5-9414-9e521e7571fc}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Fichiers sources\Materials\Common\Lighting">
+      <UniqueIdentifier>{3d399645-eac1-459f-906c-e124a25f1d79}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Fichiers sources\Materials\BoundingBoxMaterial">
+      <UniqueIdentifier>{f9f07866-e704-4bcb-8d42-c9f198d73d6f}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Fichiers sources\Materials\LightMaterial">
+      <UniqueIdentifier>{93b929f2-5f30-4559-b3bb-282d43a70153}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Fichiers sources\Materials\ColorMaterial">
+      <UniqueIdentifier>{64eb7ac6-d361-46bb-badf-6bc03c80ace7}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Fichiers sources\Materials\TextureMaterial">
+      <UniqueIdentifier>{38eb2521-d309-4dd6-a6c9-1482b36f3f44}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Fichiers sources\Engine\OpenGL\v4">
+      <UniqueIdentifier>{00cae09e-f52c-491d-b7cb-cc3b9ad68c06}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Fichiers sources\Effects\PostProcess">
+      <UniqueIdentifier>{23014346-bb24-4e66-9692-d18dba2f2daf}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Fichiers sources\Effects\PostProcess\AntiAliasing">
+      <UniqueIdentifier>{df115ac3-acd5-471d-849e-faddaa51723c}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Fichiers sources\Effects\PostProcess\AntiAliasing\Shaders">
+      <UniqueIdentifier>{727d81b9-30ce-4eea-84b1-e145a681e65b}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Fichiers sources\Effects\PostProcess\S3HO">
+      <UniqueIdentifier>{18e43a7e-d70c-44c4-91fc-17e40f6fd349}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Fichiers sources\Effects\PostProcess\S3HO\Shaders">
+      <UniqueIdentifier>{56bb1ffa-853f-473a-a4f2-5a2c387bed07}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Fichiers sources\Effects\PostProcess\DeferredShading">
+      <UniqueIdentifier>{ff3db323-6ac1-4287-a647-8304a0473c32}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Fichiers sources\Effects\PostProcess\DeferredShading\Shaders">
+      <UniqueIdentifier>{e814969e-482c-4a5d-b5c6-fda645d73f53}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Fichiers sources\Effects\PostProcess\DepthOfField">
+      <UniqueIdentifier>{95ade72c-2852-4604-9a15-bdc9ec78c2ef}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Fichiers sources\Effects\PostProcess\DepthOfField\Shaders">
+      <UniqueIdentifier>{8283c67d-cc92-4314-b034-6a997b5e76ea}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Fichiers sources\Effects\PostProcess\MotionBlur">
+      <UniqueIdentifier>{4ddc9097-395d-460a-951f-faac6d6ca5fa}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Fichiers sources\Effects\PostProcess\MotionBlur\Shaders">
+      <UniqueIdentifier>{1f7e7b84-bb44-48a9-94f1-a8d3c66e0a64}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Fichiers sources\Effects\PostProcess\ToneMapping">
+      <UniqueIdentifier>{72d2ae25-4653-4964-bc77-1ea66147124c}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Fichiers sources\Effects\PostProcess\ToneMapping\Shaders">
+      <UniqueIdentifier>{06648f64-8a74-463e-bdc5-4188edfe3d4e}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Fichiers sources\Effects\PostProcess\LinearizeDepth">
+      <UniqueIdentifier>{5405f261-fbd6-4be1-84f0-f209dbf39766}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Fichiers sources\Effects\PostProcess\LinearizeDepth\Shaders">
+      <UniqueIdentifier>{ed8f044d-3303-4e28-95f9-5b3f80aaead3}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Fichiers sources\Materials\DeferredMaterial">
+      <UniqueIdentifier>{b833cd15-252f-4c00-b033-9cc51ebfd0e1}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Fichiers sources\Utils\tinyxml2">
+      <UniqueIdentifier>{cc0752c0-dc8c-4d3d-a64b-224dca4761f1}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Fichiers sources\Materials\GBuffersMaterial">
+      <UniqueIdentifier>{82e7b59a-f949-4904-a943-ccd3be7a1041}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Fichiers sources\Utils\imgui">
+      <UniqueIdentifier>{513e8623-a6d3-4f0e-a839-527e78a90cd2}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Fichiers sources\Materials\BRDFMaterial">
+      <UniqueIdentifier>{5af721b3-add3-4006-9046-3fcc30075ae4}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Fichiers sources\Materials\Common\BRDF">
+      <UniqueIdentifier>{5d702eb7-c59e-401a-a280-ef62f70391d0}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Fichiers sources\Materials\Common\BRDF\templates">
+      <UniqueIdentifier>{5122c368-1b6c-486b-ab0b-ea3d8232f19c}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Fichiers sources\Engine\Base\MaterialLoader">
+      <UniqueIdentifier>{0b394168-737d-4063-a8dc-185390f70837}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Fichiers sources\Materials\Common\BRDF\reflectance">
+      <UniqueIdentifier>{8155a36c-160d-4c52-b02a-bf53eac1b056}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Fichiers sources\Materials\Common\BRDF\diffuse">
+      <UniqueIdentifier>{f0a37cbf-eeb4-4ea1-a3e3-5af3936e13a6}</UniqueIdentifier>
+    </Filter>
+  </ItemGroup>
+  <ItemGroup>
+    <ClCompile Include="..\Core\Engine\Base\Animator.cpp">
+      <Filter>Fichiers sources\Engine\Base</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Core\Engine\Base\Camera.cpp">
+      <Filter>Fichiers sources\Engine\Base</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Core\Engine\Base\Effect.cpp">
+      <Filter>Fichiers sources\Engine\Base</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Core\Engine\Base\Frame.cpp">
+      <Filter>Fichiers sources\Engine\Base</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Core\Engine\Base\GeometricModel.cpp">
+      <Filter>Fichiers sources\Engine\Base</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Core\Engine\Base\Material.cpp">
+      <Filter>Fichiers sources\Engine\Base</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Core\Engine\Base\Model.cpp">
+      <Filter>Fichiers sources\Engine\Base</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Core\Engine\Base\Node.cpp">
+      <Filter>Fichiers sources\Engine\Base</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Core\Engine\Base\Resource.cpp">
+      <Filter>Fichiers sources\Engine\Base</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Core\Engine\Base\Scene.cpp">
+      <Filter>Fichiers sources\Engine\Base</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Core\Engine\Base\Animators\RotationAnimator.cpp">
+      <Filter>Fichiers sources\Engine\Base\Animators</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Core\Engine\Base\BoundingBox\BoundingBox.cpp">
+      <Filter>Fichiers sources\Engine\Base\BoundingBox</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Core\Engine\Base\BoundingBox\GeometricBoundingBox.cpp">
+      <Filter>Fichiers sources\Engine\Base\BoundingBox</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Core\Engine\Base\GeometricModelLoader\AssimpLoader.cpp">
+      <Filter>Fichiers sources\Engine\Base\GeometricModelLoader</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Core\Engine\Base\GeometricModelLoader\OBJLoader.cpp">
+      <Filter>Fichiers sources\Engine\Base\GeometricModelLoader</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Core\Engine\Base\Lighting\LightingModel.cpp">
+      <Filter>Fichiers sources\Engine\Base\Lighting</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Core\Engine\Base\Lighting\LightNode.cpp">
+      <Filter>Fichiers sources\Engine\Base\Lighting</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Core\Engine\Base\NodeCollectors\FCCollector.cpp">
+      <Filter>Fichiers sources\Engine\Base\NodeCollectors</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Core\Engine\Base\NodeCollectors\LightCollector.cpp">
+      <Filter>Fichiers sources\Engine\Base\NodeCollectors</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Core\Engine\Base\NodeCollectors\MeshNodeCollector.cpp">
+      <Filter>Fichiers sources\Engine\Base\NodeCollectors</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Core\Engine\Base\NodeCollectors\StandardCollector.cpp">
+      <Filter>Fichiers sources\Engine\Base\NodeCollectors</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Core\Engine\OpenGL\CameraGL.cpp">
+      <Filter>Fichiers sources\Engine\OpenGL</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Core\Engine\OpenGL\EffectGL.cpp">
+      <Filter>Fichiers sources\Engine\OpenGL</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Core\Engine\OpenGL\EngineGL.cpp">
+      <Filter>Fichiers sources\Engine\OpenGL</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Core\Engine\OpenGL\MaterialGL.cpp">
+      <Filter>Fichiers sources\Engine\OpenGL</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Core\Engine\OpenGL\ModelGL.cpp">
+      <Filter>Fichiers sources\Engine\OpenGL</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Core\Engine\OpenGL\Managers\GLProgramsSourceManager.cpp">
+      <Filter>Fichiers sources\Engine\OpenGL\Managers</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Core\Engine\OpenGL\Managers\GLUniformBlock.cpp">
+      <Filter>Fichiers sources\Engine\OpenGL\Managers</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Core\Engine\OpenGL\Managers\GLUniformManager.cpp">
+      <Filter>Fichiers sources\Engine\OpenGL\Managers</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Core\Engine\OpenGL\Managers\textfile.cpp">
+      <Filter>Fichiers sources\Engine\OpenGL\Managers</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Core\Engine\OpenGL\Lighting\LightingModelGL.cpp">
+      <Filter>Fichiers sources\Engine\OpenGL\Lighting</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Core\Engine\OpenGL\BoundingBox\BoundingBoxModelGL.cpp">
+      <Filter>Fichiers sources\Engine\OpenGL\BoundingBox</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Core\GPUResources\Buffers\GPUArrayBuffer.cpp">
+      <Filter>Fichiers sources\GPUResources\Buffers</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Core\GPUResources\Buffers\GPUBuffer.cpp">
+      <Filter>Fichiers sources\GPUResources\Buffers</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Core\GPUResources\Buffers\GPUIBuffer.cpp">
+      <Filter>Fichiers sources\GPUResources\Buffers</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Core\GPUResources\Buffers\GPUShaderStorageBuffer.cpp">
+      <Filter>Fichiers sources\GPUResources\Buffers</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Core\GPUResources\Buffers\GPUTextureBuffer.cpp">
+      <Filter>Fichiers sources\GPUResources\Buffers</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Core\GPUResources\FBO\GPUFBO.cpp">
+      <Filter>Fichiers sources\GPUResources\FBO</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Core\GPUResources\Query\GPUQuery.cpp">
+      <Filter>Fichiers sources\GPUResources\Query</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Core\GPUResources\Textures\GPUTexImage.cpp">
+      <Filter>Fichiers sources\GPUResources\Textures</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Core\GPUResources\Textures\GPUTexImage2D.cpp">
+      <Filter>Fichiers sources\GPUResources\Textures</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Core\GPUResources\Textures\GPUTexImage2DArray.cpp">
+      <Filter>Fichiers sources\GPUResources\Textures</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Core\GPUResources\Textures\GPUTexture.cpp">
+      <Filter>Fichiers sources\GPUResources\Textures</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Core\GPUResources\Textures\GPUTexture1D.cpp">
+      <Filter>Fichiers sources\GPUResources\Textures</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Core\GPUResources\Textures\GPUTexture2D.cpp">
+      <Filter>Fichiers sources\GPUResources\Textures</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Core\GPUResources\Textures\GPUTexture2DArray.cpp">
+      <Filter>Fichiers sources\GPUResources\Textures</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Core\GPUResources\Textures\GPUTextureCubeMap.cpp">
+      <Filter>Fichiers sources\GPUResources\Textures</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Core\GPUResources\TransformFeedback\GPUTransformFeedback.cpp">
+      <Filter>Fichiers sources\GPUResources\TransformFeedback</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Core\Utils\GLError.cpp">
+      <Filter>Fichiers sources\Utils</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Core\Utils\MyTime.cpp">
+      <Filter>Fichiers sources\Utils</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Core\Utils\ImageReader\ImageReader.cpp">
+      <Filter>Fichiers sources\Utils\ImageReader</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Core\Utils\ImageUtilities\image_DXT.cpp">
+      <Filter>Fichiers sources\Utils\ImageUtilities</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Core\Utils\ImageUtilities\ImageUtils.cpp">
+      <Filter>Fichiers sources\Utils\ImageUtilities</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Core\Effects\BilateralFilter\BilateralFilter.cpp">
+      <Filter>Fichiers sources\Effects\BilateralFilter</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Core\Effects\Composition\Composition.cpp">
+      <Filter>Fichiers sources\Effects\Composition</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Core\Effects\DisplayImage\DisplayImage.cpp">
+      <Filter>Fichiers sources\Effects\DisplayImage</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Core\Effects\DisplayLayer\DisplayLayer.cpp">
+      <Filter>Fichiers sources\Effects\DisplayLayer</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Core\Effects\DisplayResource\DisplayResource.cpp">
+      <Filter>Fichiers sources\Effects\DisplayResource</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Core\Materials\BoundingBoxMaterial\BoundingBoxMaterial.cpp">
+      <Filter>Fichiers sources\Materials\BoundingBoxMaterial</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Core\Materials\LightMaterial\LightMaterial.cpp">
+      <Filter>Fichiers sources\Materials\LightMaterial</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Core\Materials\ColorMaterial\ColorMaterial.cpp">
+      <Filter>Fichiers sources\Materials\ColorMaterial</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Core\Materials\TextureMaterial\TextureMaterial.cpp">
+      <Filter>Fichiers sources\Materials\TextureMaterial</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Core\Engine\OpenGL\v4\GLProgram.cpp">
+      <Filter>Fichiers sources\Engine\OpenGL\v4</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Core\Engine\OpenGL\v4\GLProgramPipeline.cpp">
+      <Filter>Fichiers sources\Engine\OpenGL\v4</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Core\Engine\OpenGL\v4\GLProgramSource.cpp">
+      <Filter>Fichiers sources\Engine\OpenGL\v4</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Core\GPUResources\GPUInfo.cpp">
+      <Filter>Fichiers sources\GPUResources</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Core\Effects\PostProcess\AntiAliasing\AntiAliasing.cpp">
+      <Filter>Fichiers sources\Effects\PostProcess\AntiAliasing</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Core\Effects\PostProcess\S3HO\S3HO.cpp">
+      <Filter>Fichiers sources\Effects\PostProcess\S3HO</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Core\Effects\PostProcess\DeferredShading\DeferredShading.cpp">
+      <Filter>Fichiers sources\Effects\PostProcess\DeferredShading</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Core\Effects\PostProcess\DepthOfField\DepthOfField.cpp">
+      <Filter>Fichiers sources\Effects\PostProcess\DepthOfField</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Core\Effects\PostProcess\MotionBlur\MotionBlur.cpp">
+      <Filter>Fichiers sources\Effects\PostProcess\MotionBlur</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Core\Effects\PostProcess\ToneMapping\ToneMapping.cpp">
+      <Filter>Fichiers sources\Effects\PostProcess\ToneMapping</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Core\Effects\PostProcess\LinearizeDepth\LinearizeDepth.cpp">
+      <Filter>Fichiers sources\Effects\PostProcess\LinearizeDepth</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Core\Effects\PostProcess\PostProcess.cpp">
+      <Filter>Fichiers sources\Effects\PostProcess</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Core\Materials\DeferredMaterial\DeferredMaterial.cpp">
+      <Filter>Fichiers sources\Materials\DeferredMaterial</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Core\Engine\Base\Frustum.cpp">
+      <Filter>Fichiers sources\Engine\Base</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Core\Engine\Base\Spline.cpp">
+      <Filter>Fichiers sources\Engine\Base</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Core\Engine\Base\ShadowModel.cpp">
+      <Filter>Fichiers sources\Engine\Base</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Core\Engine\Base\XMLLoader.cpp">
+      <Filter>Fichiers sources\Engine\Base</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Core\Utils\tinyxml2\tinyxml2.cpp">
+      <Filter>Fichiers sources\Utils\tinyxml2</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Core\Materials\GBuffersMaterial\GBuffersMaterial.cpp">
+      <Filter>Fichiers sources\Materials\GBuffersMaterial</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Core\Engine\Base\Path.cpp">
+      <Filter>Fichiers sources\Engine\Base</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Core\Utils\imgui\imgui.cpp">
+      <Filter>Fichiers sources\Utils\imgui</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Core\Utils\imgui\imgui_demo.cpp">
+      <Filter>Fichiers sources\Utils\imgui</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Core\Utils\imgui\imgui_draw.cpp">
+      <Filter>Fichiers sources\Utils\imgui</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Core\Utils\imgui\imgui_impl_glfw_gl3.cpp">
+      <Filter>Fichiers sources\Utils\imgui</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Core\Engine\OpenGL\SceneLoaderGL.cpp">
+      <Filter>Fichiers sources\Engine\OpenGL</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Core\Engine\OpenGL\EngineGLState.cpp">
+      <Filter>Fichiers sources\Engine\OpenGL</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Core\Utils\Logger\ImGUILogger.cpp">
+      <Filter>Fichiers sources</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Core\Engine\OpenGL\DeferredEngineGL.cpp">
+      <Filter>Fichiers sources\Engine\OpenGL</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Core\Engine\OpenGL\deferredSceneLoaderGL.cpp">
+      <Filter>Fichiers sources\Engine\OpenGL</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Core\Materials\BRDFMaterial\BRDFMaterial.cpp">
+      <Filter>Fichiers sources\Materials\BRDFMaterial</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Core\Engine\Base\MaterialLoader\MaterialLoader.cpp">
+      <Filter>Fichiers sources\Engine\Base\MaterialLoader</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Core\Engine\Base\MaterialLoader\TemplateShader.cpp">
+      <Filter>Fichiers sources\Engine\Base\MaterialLoader</Filter>
+    </ClCompile>
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="..\Core\Engine\Base\Animator.h">
+      <Filter>Fichiers sources\Engine\Base</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Core\Engine\Base\Camera.h">
+      <Filter>Fichiers sources\Engine\Base</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Core\Engine\Base\Effect.h">
+      <Filter>Fichiers sources\Engine\Base</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Core\Engine\Base\Engine.h">
+      <Filter>Fichiers sources\Engine\Base</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Core\Engine\Base\Frame.h">
+      <Filter>Fichiers sources\Engine\Base</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Core\Engine\Base\GeometricModel.h">
+      <Filter>Fichiers sources\Engine\Base</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Core\Engine\Base\GeometricModelLoader.h">
+      <Filter>Fichiers sources\Engine\Base</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Core\Engine\Base\Light.hpp">
+      <Filter>Fichiers sources\Engine\Base</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Core\Engine\Base\Material.h">
+      <Filter>Fichiers sources\Engine\Base</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Core\Engine\Base\MetaData.hpp">
+      <Filter>Fichiers sources\Engine\Base</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Core\Engine\Base\Model.h">
+      <Filter>Fichiers sources\Engine\Base</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Core\Engine\Base\Node.h">
+      <Filter>Fichiers sources\Engine\Base</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Core\Engine\Base\NodeCollector.h">
+      <Filter>Fichiers sources\Engine\Base</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Core\Engine\Base\Resource.h">
+      <Filter>Fichiers sources\Engine\Base</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Core\Engine\Base\Scene.h">
+      <Filter>Fichiers sources\Engine\Base</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Core\Engine\Base\Animators\RotationAnimator.h">
+      <Filter>Fichiers sources\Engine\Base\Animators</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Core\Engine\Base\BoundingBox\BoundingBox.h">
+      <Filter>Fichiers sources\Engine\Base\BoundingBox</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Core\Engine\Base\BoundingBox\GeometricBoundingBox.h">
+      <Filter>Fichiers sources\Engine\Base\BoundingBox</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Core\Engine\Base\GeometricModelLoader\AssimpLoader.h">
+      <Filter>Fichiers sources\Engine\Base\GeometricModelLoader</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Core\Engine\Base\GeometricModelLoader\OBJLoader.h">
+      <Filter>Fichiers sources\Engine\Base\GeometricModelLoader</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Core\Engine\Base\Lighting\LightingModel.h">
+      <Filter>Fichiers sources\Engine\Base\Lighting</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Core\Engine\Base\Lighting\LightNode.hpp">
+      <Filter>Fichiers sources\Engine\Base\Lighting</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Core\Engine\Base\NodeCollectors\FCCollector.h">
+      <Filter>Fichiers sources\Engine\Base\NodeCollectors</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Core\Engine\Base\NodeCollectors\LightCollector.h">
+      <Filter>Fichiers sources\Engine\Base\NodeCollectors</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Core\Engine\Base\NodeCollectors\MeshNodeCollector.h">
+      <Filter>Fichiers sources\Engine\Base\NodeCollectors</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Core\Engine\Base\NodeCollectors\StandardCollector.h">
+      <Filter>Fichiers sources\Engine\Base\NodeCollectors</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Core\Engine\OpenGL\CameraGL.h">
+      <Filter>Fichiers sources\Engine\OpenGL</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Core\Engine\OpenGL\EffectGL.h">
+      <Filter>Fichiers sources\Engine\OpenGL</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Core\Engine\OpenGL\EngineGL.h">
+      <Filter>Fichiers sources\Engine\OpenGL</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Core\Engine\OpenGL\MaterialGL.h">
+      <Filter>Fichiers sources\Engine\OpenGL</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Core\Engine\OpenGL\ModelGL.h">
+      <Filter>Fichiers sources\Engine\OpenGL</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Core\Engine\OpenGL\Managers\GLProgramsSourceManager.h">
+      <Filter>Fichiers sources\Engine\OpenGL\Managers</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Core\Engine\OpenGL\Managers\GLUniformBlock.h">
+      <Filter>Fichiers sources\Engine\OpenGL\Managers</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Core\Engine\OpenGL\Managers\GLUniformManager.h">
+      <Filter>Fichiers sources\Engine\OpenGL\Managers</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Core\Engine\OpenGL\Managers\GPUVariable.hpp">
+      <Filter>Fichiers sources\Engine\OpenGL\Managers</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Core\Engine\OpenGL\Managers\textfile.h">
+      <Filter>Fichiers sources\Engine\OpenGL\Managers</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Core\Engine\OpenGL\Lighting\LightingModelGL.h">
+      <Filter>Fichiers sources\Engine\OpenGL\Lighting</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Core\Engine\OpenGL\BoundingBox\BoundingBoxModelGL.h">
+      <Filter>Fichiers sources\Engine\OpenGL\BoundingBox</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Core\GPUResources\Buffers\GPUArrayBuffer.h">
+      <Filter>Fichiers sources\GPUResources\Buffers</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Core\GPUResources\Buffers\GPUBuffer.h">
+      <Filter>Fichiers sources\GPUResources\Buffers</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Core\GPUResources\Buffers\GPUIBuffer.h">
+      <Filter>Fichiers sources\GPUResources\Buffers</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Core\GPUResources\Buffers\GPUShaderStorageBuffer.h">
+      <Filter>Fichiers sources\GPUResources\Buffers</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Core\GPUResources\Buffers\GPUTextureBuffer.h">
+      <Filter>Fichiers sources\GPUResources\Buffers</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Core\GPUResources\FBO\GPUFBO.h">
+      <Filter>Fichiers sources\GPUResources\FBO</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Core\GPUResources\Query\GPUQuery.h">
+      <Filter>Fichiers sources\GPUResources\Query</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Core\GPUResources\Textures\GPUTexImage.h">
+      <Filter>Fichiers sources\GPUResources\Textures</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Core\GPUResources\Textures\GPUTexImage2D.h">
+      <Filter>Fichiers sources\GPUResources\Textures</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Core\GPUResources\Textures\GPUTexImage2DArray.h">
+      <Filter>Fichiers sources\GPUResources\Textures</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Core\GPUResources\Textures\GPUTexture.h">
+      <Filter>Fichiers sources\GPUResources\Textures</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Core\GPUResources\Textures\GPUTexture1D.h">
+      <Filter>Fichiers sources\GPUResources\Textures</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Core\GPUResources\Textures\GPUTexture2D.h">
+      <Filter>Fichiers sources\GPUResources\Textures</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Core\GPUResources\Textures\GPUTexture2DArray.h">
+      <Filter>Fichiers sources\GPUResources\Textures</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Core\GPUResources\Textures\GPUTextureCubeMap.h">
+      <Filter>Fichiers sources\GPUResources\Textures</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Core\GPUResources\TransformFeedback\GPUTransformFeedback.h">
+      <Filter>Fichiers sources\GPUResources\TransformFeedback</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Core\Utils\Constants.h">
+      <Filter>Fichiers sources\Utils</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Core\Utils\GLError.h">
+      <Filter>Fichiers sources\Utils</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Core\Utils\MyTime.h">
+      <Filter>Fichiers sources\Utils</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Core\Utils\ImageReader\ImageReader.h">
+      <Filter>Fichiers sources\Utils\ImageReader</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Core\Utils\ImageUtilities\image_DXT.h">
+      <Filter>Fichiers sources\Utils\ImageUtilities</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Core\Utils\ImageUtilities\ImageUtils.h">
+      <Filter>Fichiers sources\Utils\ImageUtilities</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Core\Utils\dirent.h">
+      <Filter>Fichiers sources\Utils</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Core\Effects\BilateralFilter\BilateralFilter.h">
+      <Filter>Fichiers sources\Effects\BilateralFilter</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Core\Effects\Composition\Composition.h">
+      <Filter>Fichiers sources\Effects\Composition</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Core\Effects\DisplayImage\DisplayImage.h">
+      <Filter>Fichiers sources\Effects\DisplayImage</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Core\Effects\DisplayLayer\DisplayLayer.h">
+      <Filter>Fichiers sources\Effects\DisplayLayer</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Core\Effects\DisplayResource\DisplayResource.h">
+      <Filter>Fichiers sources\Effects\DisplayResource</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Core\Materials\BoundingBoxMaterial\BoundingBoxMaterial.h">
+      <Filter>Fichiers sources\Materials\BoundingBoxMaterial</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Core\Materials\LightMaterial\LightMaterial.h">
+      <Filter>Fichiers sources\Materials\LightMaterial</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Core\Materials\ColorMaterial\ColorMaterial.h">
+      <Filter>Fichiers sources\Materials\ColorMaterial</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Core\Materials\TextureMaterial\TextureMaterial.h">
+      <Filter>Fichiers sources\Materials\TextureMaterial</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Core\Engine\OpenGL\v4\GLProgram.h">
+      <Filter>Fichiers sources\Engine\OpenGL\v4</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Core\Engine\OpenGL\v4\GLProgramPipeline.h">
+      <Filter>Fichiers sources\Engine\OpenGL\v4</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Core\Engine\OpenGL\v4\GLProgramSource.h">
+      <Filter>Fichiers sources\Engine\OpenGL\v4</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Core\GPUResources\GPUInfo.h">
+      <Filter>Fichiers sources\GPUResources</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Core\Effects\PostProcess\AntiAliasing\AntiAliasing.h">
+      <Filter>Fichiers sources\Effects\PostProcess\AntiAliasing</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Core\Effects\PostProcess\S3HO\S3HO.h">
+      <Filter>Fichiers sources\Effects\PostProcess\S3HO</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Core\Effects\PostProcess\DeferredShading\DeferredShading.h">
+      <Filter>Fichiers sources\Effects\PostProcess\DeferredShading</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Core\Effects\PostProcess\DepthOfField\DepthOfField.h">
+      <Filter>Fichiers sources\Effects\PostProcess\DepthOfField</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Core\Effects\PostProcess\MotionBlur\MotionBlur.h">
+      <Filter>Fichiers sources\Effects\PostProcess\MotionBlur</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Core\Effects\PostProcess\ToneMapping\ToneMapping.h">
+      <Filter>Fichiers sources\Effects\PostProcess\ToneMapping</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Core\Effects\PostProcess\LinearizeDepth\LinearizeDepth.h">
+      <Filter>Fichiers sources\Effects\PostProcess\LinearizeDepth</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Core\Effects\PostProcess\PostProcess.h">
+      <Filter>Fichiers sources\Effects\PostProcess</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Core\Materials\DeferredMaterial\DeferredMaterial.h">
+      <Filter>Fichiers sources\Materials\DeferredMaterial</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Core\Engine\Base\Frustum.h">
+      <Filter>Fichiers sources\Engine\Base</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Core\Engine\Base\Spline.h">
+      <Filter>Fichiers sources\Engine\Base</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Core\Engine\Base\ShadowModel.h">
+      <Filter>Fichiers sources\Engine\Base</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Core\Engine\Base\XMLLoader.h">
+      <Filter>Fichiers sources\Engine\Base</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Core\Utils\tinyxml2\tinyxml2.h">
+      <Filter>Fichiers sources\Utils\tinyxml2</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Core\Materials\GBuffersMaterial\GBuffersMaterial.h">
+      <Filter>Fichiers sources\Materials\GBuffersMaterial</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Core\Engine\Base\Path.h">
+      <Filter>Fichiers sources\Engine\Base</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Core\Utils\imgui\imconfig.h">
+      <Filter>Fichiers sources\Utils\imgui</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Core\Utils\imgui\imgui.h">
+      <Filter>Fichiers sources\Utils\imgui</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Core\Utils\imgui\imgui_impl_glfw_gl3.h">
+      <Filter>Fichiers sources\Utils\imgui</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Core\Utils\imgui\imgui_internal.h">
+      <Filter>Fichiers sources\Utils\imgui</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Core\Utils\imgui\stb_rect_pack.h">
+      <Filter>Fichiers sources\Utils\imgui</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Core\Utils\imgui\stb_textedit.h">
+      <Filter>Fichiers sources\Utils\imgui</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Core\Utils\imgui\stb_truetype.h">
+      <Filter>Fichiers sources\Utils\imgui</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Core\Engine\OpenGL\SceneLoaderGL.h">
+      <Filter>Fichiers sources\Engine\OpenGL</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Core\Engine\OpenGL\EngineGLState.h">
+      <Filter>Fichiers sources\Engine\OpenGL</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Core\Utils\Logger\ImGuiLogger.h" />
+    <ClInclude Include="..\Core\Utils\Resource_mgr.hpp" />
+    <ClInclude Include="..\Core\Utils\Singleton.h" />
+    <ClInclude Include="..\Core\Engine\OpenGL\DeferredEngineGL.h">
+      <Filter>Fichiers sources\Engine\OpenGL</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Core\Engine\OpenGL\deferredSceneLoaderGL.h">
+      <Filter>Fichiers sources\Engine\OpenGL</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Core\Utils\json-develop\src\json.hpp">
+      <Filter>Fichiers sources\Utils</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Core\Materials\BRDFMaterial\BRDFMaterial.hpp">
+      <Filter>Fichiers sources\Materials\BRDFMaterial</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Core\Engine\Base\MaterialLoader\MaterialLoader.hpp">
+      <Filter>Fichiers sources\Engine\Base\MaterialLoader</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Core\Engine\Base\MaterialLoader\TemplateShader.hpp">
+      <Filter>Fichiers sources\Engine\Base\MaterialLoader</Filter>
+    </ClInclude>
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="..\Core\Effects\BilateralFilter\Shaders\Base-VS.glsl">
+      <Filter>Fichiers sources\Effects\BilateralFilter</Filter>
+    </None>
+    <None Include="..\Core\Effects\BilateralFilter\Shaders\Horizontal-FS.glsl">
+      <Filter>Fichiers sources\Effects\BilateralFilter</Filter>
+    </None>
+    <None Include="..\Core\Effects\BilateralFilter\Shaders\Vertical-FS.glsl">
+      <Filter>Fichiers sources\Effects\BilateralFilter</Filter>
+    </None>
+    <None Include="..\Core\Effects\Composition\Shaders\Base-VS.glsl">
+      <Filter>Fichiers sources\Effects\Composition</Filter>
+    </None>
+    <None Include="..\Core\Effects\Composition\Shaders\ColorBloom-FS.glsl">
+      <Filter>Fichiers sources\Effects\Composition</Filter>
+    </None>
+    <None Include="..\Core\Effects\DisplayImage\Shaders\Base-VS.glsl">
+      <Filter>Fichiers sources\Effects\DisplayImage</Filter>
+    </None>
+    <None Include="..\Core\Effects\DisplayImage\Shaders\Display-FS.glsl">
+      <Filter>Fichiers sources\Effects\DisplayImage</Filter>
+    </None>
+    <None Include="..\Core\Effects\DisplayLayer\Shaders\Base-VS.glsl">
+      <Filter>Fichiers sources\Effects\DisplayLayer</Filter>
+    </None>
+    <None Include="..\Core\Effects\DisplayLayer\Shaders\Display-FS.glsl">
+      <Filter>Fichiers sources\Effects\DisplayLayer</Filter>
+    </None>
+    <None Include="..\Core\Effects\DisplayResource\Shaders\Base-VS.glsl">
+      <Filter>Fichiers sources\Effects\DisplayResource</Filter>
+    </None>
+    <None Include="..\Core\Effects\DisplayResource\Shaders\Display-FS.glsl">
+      <Filter>Fichiers sources\Effects\DisplayResource</Filter>
+    </None>
+    <None Include="..\Core\Materials\Common\Common.glsl">
+      <Filter>Fichiers sources\Materials\Common</Filter>
+    </None>
+    <None Include="..\Core\Materials\Common\Grid.glsl">
+      <Filter>Fichiers sources\Materials\Common</Filter>
+    </None>
+    <None Include="..\Core\Materials\Common\Splatting.glsl">
+      <Filter>Fichiers sources\Materials\Common</Filter>
+    </None>
+    <None Include="..\Core\Materials\Common\Lighting\Lighting.glsl">
+      <Filter>Fichiers sources\Materials\Common\Lighting</Filter>
+    </None>
+    <None Include="..\Core\Materials\BoundingBoxMaterial\Shaders\Main-FS.glsl">
+      <Filter>Fichiers sources\Materials\BoundingBoxMaterial</Filter>
+    </None>
+    <None Include="..\Core\Materials\BoundingBoxMaterial\Shaders\Main-VS.glsl">
+      <Filter>Fichiers sources\Materials\BoundingBoxMaterial</Filter>
+    </None>
+    <None Include="..\Core\Materials\LightMaterial\Shaders\Main-FS.glsl">
+      <Filter>Fichiers sources\Materials\LightMaterial</Filter>
+    </None>
+    <None Include="..\Core\Materials\LightMaterial\Shaders\Main-VS.glsl">
+      <Filter>Fichiers sources\Materials\LightMaterial</Filter>
+    </None>
+    <None Include="..\Core\Materials\ColorMaterial\Shaders\Main-FS.glsl">
+      <Filter>Fichiers sources\Materials\ColorMaterial</Filter>
+    </None>
+    <None Include="..\Core\Materials\ColorMaterial\Shaders\Main-VS.glsl">
+      <Filter>Fichiers sources\Materials\ColorMaterial</Filter>
+    </None>
+    <None Include="..\Core\Materials\TextureMaterial\Shaders\Main-FS.glsl">
+      <Filter>Fichiers sources\Materials\TextureMaterial</Filter>
+    </None>
+    <None Include="..\Core\Materials\TextureMaterial\Shaders\Main-VS.glsl">
+      <Filter>Fichiers sources\Materials\TextureMaterial</Filter>
+    </None>
+    <None Include="..\Core\Effects\PostProcess\AntiAliasing\Shaders\AA-AntiAliasing-FS.glsl">
+      <Filter>Fichiers sources\Effects\PostProcess\AntiAliasing\Shaders</Filter>
+    </None>
+    <None Include="..\Core\Effects\PostProcess\AntiAliasing\Shaders\AA-Edge-EdgeDetection-FS.glsl">
+      <Filter>Fichiers sources\Effects\PostProcess\AntiAliasing\Shaders</Filter>
+    </None>
+    <None Include="..\Core\Effects\PostProcess\AntiAliasing\Shaders\AA-Edge-HBlur-FS.glsl">
+      <Filter>Fichiers sources\Effects\PostProcess\AntiAliasing\Shaders</Filter>
+    </None>
+    <None Include="..\Core\Effects\PostProcess\AntiAliasing\Shaders\AA-Edge-VBlur-FS.glsl">
+      <Filter>Fichiers sources\Effects\PostProcess\AntiAliasing\Shaders</Filter>
+    </None>
+    <None Include="..\Core\Effects\PostProcess\AntiAliasing\Shaders\AA-Shading-HBlur-FS.glsl">
+      <Filter>Fichiers sources\Effects\PostProcess\AntiAliasing\Shaders</Filter>
+    </None>
+    <None Include="..\Core\Effects\PostProcess\AntiAliasing\Shaders\AA-Shading-VBlur-FS.glsl">
+      <Filter>Fichiers sources\Effects\PostProcess\AntiAliasing\Shaders</Filter>
+    </None>
+    <None Include="..\Core\Effects\PostProcess\AntiAliasing\Shaders\Base-VS.glsl">
+      <Filter>Fichiers sources\Effects\PostProcess\AntiAliasing\Shaders</Filter>
+    </None>
+    <None Include="..\Core\Effects\PostProcess\S3HO\Shaders\Base-VS.glsl">
+      <Filter>Fichiers sources\Effects\PostProcess\S3HO\Shaders</Filter>
+    </None>
+    <None Include="..\Core\Effects\PostProcess\S3HO\Shaders\SSDO-BLUR.glsl">
+      <Filter>Fichiers sources\Effects\PostProcess\S3HO\Shaders</Filter>
+    </None>
+    <None Include="..\Core\Effects\PostProcess\S3HO\Shaders\SSDO-FS.glsl">
+      <Filter>Fichiers sources\Effects\PostProcess\S3HO\Shaders</Filter>
+    </None>
+    <None Include="..\Core\Effects\PostProcess\S3HO\Shaders\SSDO-FS.glsl.bak">
+      <Filter>Fichiers sources\Effects\PostProcess\S3HO\Shaders</Filter>
+    </None>
+    <None Include="..\Core\Effects\PostProcess\S3HO\Shaders\SSDO-FS-PAS-CLEAN.glsl">
+      <Filter>Fichiers sources\Effects\PostProcess\S3HO\Shaders</Filter>
+    </None>
+    <None Include="..\Core\Effects\PostProcess\S3HO\Shaders\SSDO-HBlur-FS.glsl">
+      <Filter>Fichiers sources\Effects\PostProcess\S3HO\Shaders</Filter>
+    </None>
+    <None Include="..\Core\Effects\PostProcess\S3HO\Shaders\SSDO-VBlur-FS.glsl">
+      <Filter>Fichiers sources\Effects\PostProcess\S3HO\Shaders</Filter>
+    </None>
+    <None Include="..\Core\Effects\PostProcess\DeferredShading\Shaders\DS-Shading-AO-FS.glsl">
+      <Filter>Fichiers sources\Effects\PostProcess\DeferredShading\Shaders</Filter>
+    </None>
+    <None Include="..\Core\Effects\PostProcess\DeferredShading\Shaders\DS-Shading-FS.glsl">
+      <Filter>Fichiers sources\Effects\PostProcess\DeferredShading\Shaders</Filter>
+    </None>
+    <None Include="..\Core\Effects\PostProcess\DeferredShading\Shaders\Base-VS.glsl">
+      <Filter>Fichiers sources\Effects\PostProcess\DeferredShading\Shaders</Filter>
+    </None>
+    <None Include="..\Core\Effects\PostProcess\DepthOfField\Shaders\Base-VS.glsl">
+      <Filter>Fichiers sources\Effects\PostProcess\DepthOfField\Shaders</Filter>
+    </None>
+    <None Include="..\Core\Effects\PostProcess\DepthOfField\Shaders\DOF-DepthOfField-FS.glsl">
+      <Filter>Fichiers sources\Effects\PostProcess\DepthOfField\Shaders</Filter>
+    </None>
+    <None Include="..\Core\Effects\PostProcess\DepthOfField\Shaders\DOF-Focal-FarDepth-FS.glsl">
+      <Filter>Fichiers sources\Effects\PostProcess\DepthOfField\Shaders</Filter>
+    </None>
+    <None Include="..\Core\Effects\PostProcess\DepthOfField\Shaders\DOF-Focal-HBlur-FS.glsl">
+      <Filter>Fichiers sources\Effects\PostProcess\DepthOfField\Shaders</Filter>
+    </None>
+    <None Include="..\Core\Effects\PostProcess\DepthOfField\Shaders\DOF-Focal-NearDepth-FS.glsl">
+      <Filter>Fichiers sources\Effects\PostProcess\DepthOfField\Shaders</Filter>
+    </None>
+    <None Include="..\Core\Effects\PostProcess\DepthOfField\Shaders\DOF-Focal-NearFarDepth-FS.glsl">
+      <Filter>Fichiers sources\Effects\PostProcess\DepthOfField\Shaders</Filter>
+    </None>
+    <None Include="..\Core\Effects\PostProcess\DepthOfField\Shaders\DOF-Focal-VBlur-FS.glsl">
+      <Filter>Fichiers sources\Effects\PostProcess\DepthOfField\Shaders</Filter>
+    </None>
+    <None Include="..\Core\Effects\PostProcess\DepthOfField\Shaders\DOF-Shading-HBlur-FS.glsl">
+      <Filter>Fichiers sources\Effects\PostProcess\DepthOfField\Shaders</Filter>
+    </None>
+    <None Include="..\Core\Effects\PostProcess\DepthOfField\Shaders\DOF-Shading-VBlur-FS.glsl">
+      <Filter>Fichiers sources\Effects\PostProcess\DepthOfField\Shaders</Filter>
+    </None>
+    <None Include="..\Core\Effects\PostProcess\MotionBlur\Shaders\MB-MotionBlur-FS.glsl">
+      <Filter>Fichiers sources\Effects\PostProcess\MotionBlur\Shaders</Filter>
+    </None>
+    <None Include="..\Core\Effects\PostProcess\MotionBlur\Shaders\MB-MotionBlur-PerObject-FS.glsl">
+      <Filter>Fichiers sources\Effects\PostProcess\MotionBlur\Shaders</Filter>
+    </None>
+    <None Include="..\Core\Effects\PostProcess\MotionBlur\Shaders\MB-MotionBlur-PerObject-FS.glsl.bak">
+      <Filter>Fichiers sources\Effects\PostProcess\MotionBlur\Shaders</Filter>
+    </None>
+    <None Include="..\Core\Effects\PostProcess\ToneMapping\Shaders\TM-Luminance-Computation-FS.glsl">
+      <Filter>Fichiers sources\Effects\PostProcess\ToneMapping\Shaders</Filter>
+    </None>
+    <None Include="..\Core\Effects\PostProcess\ToneMapping\Shaders\TM-Luminance-Downscale-FS.glsl">
+      <Filter>Fichiers sources\Effects\PostProcess\ToneMapping\Shaders</Filter>
+    </None>
+    <None Include="..\Core\Effects\PostProcess\ToneMapping\Shaders\TM-ToneMapping-FS.glsl">
+      <Filter>Fichiers sources\Effects\PostProcess\ToneMapping\Shaders</Filter>
+    </None>
+    <None Include="..\Core\Effects\PostProcess\MotionBlur\Shaders\Base-VS.glsl">
+      <Filter>Fichiers sources\Effects\PostProcess\MotionBlur\Shaders</Filter>
+    </None>
+    <None Include="..\Core\Effects\PostProcess\LinearizeDepth\Shaders\Base-VS.glsl">
+      <Filter>Fichiers sources\Effects\PostProcess\LinearizeDepth\Shaders</Filter>
+    </None>
+    <None Include="..\Core\Effects\PostProcess\LinearizeDepth\Shaders\Depth-Normalize-FS.glsl">
+      <Filter>Fichiers sources\Effects\PostProcess\LinearizeDepth\Shaders</Filter>
+    </None>
+    <None Include="..\Core\Materials\Common\POM.glsl">
+      <Filter>Fichiers sources\Materials\Common</Filter>
+    </None>
+    <None Include="..\Core\Materials\DeferredMaterial\Shaders\Main-FS.glsl">
+      <Filter>Fichiers sources\Materials\DeferredMaterial</Filter>
+    </None>
+    <None Include="..\Core\Materials\DeferredMaterial\Shaders\Main-VS.glsl">
+      <Filter>Fichiers sources\Materials\DeferredMaterial</Filter>
+    </None>
+    <None Include="..\Core\Materials\GBuffersMaterial\Shaders\Main-FS.glsl">
+      <Filter>Fichiers sources\Materials\GBuffersMaterial</Filter>
+    </None>
+    <None Include="..\Core\Materials\GBuffersMaterial\Shaders\Main-VS.glsl">
+      <Filter>Fichiers sources\Materials\GBuffersMaterial</Filter>
+    </None>
+    <None Include="..\Core\Materials\BRDFMaterial\Shaders\Main-FS.glsl">
+      <Filter>Fichiers sources\Materials\BRDFMaterial</Filter>
+    </None>
+    <None Include="..\Core\Materials\BRDFMaterial\Shaders\Main-VS.glsl">
+      <Filter>Fichiers sources\Materials\BRDFMaterial</Filter>
+    </None>
+    <None Include="..\Core\Materials\Common\BRDF\reflectance\phong.glsl">
+      <Filter>Fichiers sources\Materials\Common\BRDF\reflectance</Filter>
+    </None>
+    <None Include="..\Core\Materials\Common\BRDF\diffuse\lambert.glsl">
+      <Filter>Fichiers sources\Materials\Common\BRDF\diffuse</Filter>
+    </None>
+    <None Include="..\Core\Materials\Common\BRDF\templates\FS-template.glsl">
+      <Filter>Fichiers sources\Materials\Common\BRDF\templates</Filter>
+    </None>
+    <None Include="..\Core\Materials\Common\BRDF\templates\VS-template.glsl">
+      <Filter>Fichiers sources\Materials\Common\BRDF\templates</Filter>
+    </None>
+  </ItemGroup>
+</Project>
